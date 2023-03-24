@@ -7,7 +7,7 @@ interface Props {
 
 function Button({onClick, children}: Props) {
     return (
-        <button className="inline-block w-24 mb-2 mr-2 p-0 bg-zinc-200" onClick={onClick}>
+        <button className="inline-block w-24 mb-2 mr-2 p-0 bg-zinc-200 text-slate-900" onClick={onClick}>
             {children}
         </button>
     )
