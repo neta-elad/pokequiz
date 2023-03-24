@@ -22,7 +22,7 @@ function Pokemon({pokemon, hideName, hideTypes}: PokemonProps) {
             </h1>
             <Pokeimage pokeid={pokemon.pokeid} />
             <div className={`text-left mx-8 ${invisibleIf(hideTypes)}`}>
-                {pokemon.types.map(poketype => <Poketype poketype={poketype} />)}
+                {pokemon.types.map(poketype => <Poketype key={poketype} poketype={poketype} />)}
             </div>
         </div>
     )
