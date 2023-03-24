@@ -10,18 +10,24 @@ export type PokemonType = {
 
 export interface PokemonProps {
     pokemon: PokemonType,
+    hideName: boolean,
+    hideTypes: boolean,
 }
 
-function Pokemon({pokemon}: PokemonProps) {
+function Pokemon({pokemon, hideName, hideTypes}: PokemonProps) {
     return (
         <div>
-            <h1 className="font-3xl capitalize">{pokemon.name}</h1>
+            <h1 className={`font-3xl capitalize ${invisibleIf(hideName)}`}>{pokemon.name}</h1>
             <Pokeimage pokeid={pokemon.pokeid} />
-            <div className="text-left mx-8">
+            <div className={`text-left mx-8 ${invisibleIf(hideTypes)}`}>
                 {pokemon.types.map(poketype => <Poketype poketype={poketype} />)}
             </div>
         </div>
     )
+}
+
+function invisibleIf(condition: boolean): string {
+    return condition ? "invisible" : ""
 }
 
 export default Pokemon
