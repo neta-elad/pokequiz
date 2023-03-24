@@ -1,7 +1,22 @@
 enum PoketypeEnum {
     normal,
+    fire,
     fighting,
+    water,
     flying,
+    grass,
+    poison,
+    electric,
+    ground,
+    psychic,
+    rock,
+    ice,
+    bug,
+    dragon,
+    ghost,
+    dark,
+    steel,
+    fairy,
 }
 
 export type PoketypeType = keyof typeof PoketypeEnum
@@ -16,17 +31,10 @@ function Poketype({poketype}: PoketypeProps) {
             inline-block w-24 mr-2
             font-bold text-white text-center capitalize
             rounded-full border-2 border-slate-600
-            ${backgroundColor(poketype)}
+            ${"bg-poke" + poketype}
             `}>{poketype}</div>
     )
 }
 
-function backgroundColor(poketype: PoketypeType): string {
-    switch (poketype) {
-        case "normal": return "bg-zinc-400"
-        case "fighting": return "bg-red-800"
-        case "flying": return "bg-violet-400"
-    }
-}
 
 export default Poketype

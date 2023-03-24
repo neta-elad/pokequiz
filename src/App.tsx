@@ -1,11 +1,12 @@
 import './App.css'
 import Pokemon from './pokequiz/Pokemon'
+import getPokemon from './pokequiz/registery'
 
 function App() {
   return (
     <div className="App">
       <button>New</button> <button>Hint</button>
-      <Pokemon pokemon={{"name": "raticate", "pokeid": 20, types: ["normal", "fighting"]}} />
+      <Pokemon pokemon={getPokemon(93)} />
     </div>
   )
 }
