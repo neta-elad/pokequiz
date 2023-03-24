@@ -25,6 +25,14 @@ function App() {
     setHideTypes(false)
   }
 
+  const onClick = () => {
+    if (hideName) {
+      reveal()
+    } else {
+      changePokemon(getRandomPokemon())
+    }
+  }
+
   return (
     <div className="App">
       <div>
@@ -36,7 +44,7 @@ function App() {
         <Button onClick={() => setHideTypes(false)}>Hint</Button>
         <Button onClick={reveal}>Reveal</Button>
       </div>
-      <div onClick={() => changePokemon(getRandomPokemon())}>
+      <div onClick={onClick}>
         <Pokemon pokemon={pokemon} hideName={hideName} hideTypes={hideTypes} />
       </div>
     </div>
