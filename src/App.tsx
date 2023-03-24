@@ -29,10 +29,12 @@ function App() {
     <div className="App">
       <div>
         <Button onClick={() => changePokemon(count - 1)}>Previous</Button>
+        <Button onClick={() => changePokemon(getRandomPokemon())}>Random</Button>
         <Button onClick={() => changePokemon(count + 1)}>Next</Button>
+      </div>
+      <div>
         <Button onClick={() => setHideTypes(false)}>Hint</Button>
         <Button onClick={reveal}>Reveal</Button>
-        <Button onClick={() => changePokemon(getRandomPokemon())}>Random</Button>
       </div>
       <div onClick={() => changePokemon(getRandomPokemon())}>
         <Pokemon pokemon={pokemon} hideName={hideName} hideTypes={hideTypes} />
