@@ -17,7 +17,9 @@ export interface PokemonProps {
 function Pokemon({pokemon, hideName, hideTypes}: PokemonProps) {
     return (
         <div>
-            <h1 className={`font-3xl capitalize ${invisibleIf(hideName)}`}>{pokemon.name}</h1>
+            <h1 className={`text-3xl capitalize ${invisibleIf(hideName)}`}>
+                {pokemon.name}
+            </h1>
             <Pokeimage pokeid={pokemon.pokeid} />
             <div className={`text-left mx-8 ${invisibleIf(hideTypes)}`}>
                 {pokemon.types.map(poketype => <Poketype poketype={poketype} />)}

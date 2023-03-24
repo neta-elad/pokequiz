@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import PokeID from './pokequiz/PokeID'
 import Pokemon from './pokequiz/Pokemon'
+import Button from './pokequiz/Button'
 import getPokemon from './pokequiz/registery'
 
 function App() {
@@ -26,12 +27,16 @@ function App() {
 
   return (
     <div className="App">
-      <button onClick={() => changePokemon(count - 1)}>Previous</button>
-      <button onClick={() => changePokemon(getRandomPokemon())}>Random</button>
-      <button onClick={() => changePokemon(count + 1)}>Next</button>
-      <button onClick={() => setHideTypes(false)}>Hint</button>
-      <button onClick={reveal}>Reveal</button>
-      <Pokemon pokemon={pokemon} hideName={hideName} hideTypes={hideTypes} />
+      <div>
+        <Button onClick={() => changePokemon(count - 1)}>Previous</Button>
+        <Button onClick={() => changePokemon(count + 1)}>Next</Button>
+        <Button onClick={() => setHideTypes(false)}>Hint</Button>
+        <Button onClick={reveal}>Reveal</Button>
+        <Button onClick={() => changePokemon(getRandomPokemon())}>Random</Button>
+      </div>
+      <div onClick={() => changePokemon(getRandomPokemon())}>
+        <Pokemon pokemon={pokemon} hideName={hideName} hideTypes={hideTypes} />
+      </div>
     </div>
   )
 }
