@@ -1,10 +1,10 @@
 import PokeID from "./PokeID";
 import { PokemonType } from "./Pokemon";
 
-import registery from "./registery.json"
+import registry from "./registry.json"
 
 function getPokemon(pokeid: PokeID): PokemonType {
-    return registery[pokeid + "" as keyof typeof registery] as PokemonType
+    return registry[pokeid + "" as keyof typeof registry] as PokemonType
 }
 
 export default getPokemon
