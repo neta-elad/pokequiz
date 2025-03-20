@@ -46,7 +46,7 @@ function App() {
     await changePokemon(pokeId + 1);
   };
 
-  useSwipe(nextPokemon, prevPokemon, [id]);
+  useSwipe(prevPokemon, nextPokemon, [id]);
 
   const randomPokemon = async () => {
     await changePokemon(getRandom());
