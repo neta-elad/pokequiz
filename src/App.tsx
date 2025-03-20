@@ -1,7 +1,9 @@
-import { useState, useEffect } from "react";
-import { useParams, useNavigate } from "react-router";
+import { useState } from "react";
+import { useParams, useNavigate, Navigate } from "react-router";
 
 import "./App.css";
+import useKeypress from "./effects/useKeypress";
+import useSwipe from "./effects/useSwipe";
 import PokeID, { toPokeID, getRandom } from "./pokequiz/PokeID";
 import Pokemon from "./pokequiz/Pokemon";
 import Button from "./pokequiz/Button";
@@ -14,28 +16,13 @@ function App() {
   const [hideName, setHideName] = useState(true);
   const [hideTypes, setHideTypes] = useState(true);
   const [loading, setLoading] = useState(false);
-  useEffect(() => {
-    const handleKeyPress = async (event: KeyboardEvent) => {
-      switch (event.key) {
-        case "ArrowLeft":
-          return await prevPokemon();
-        case "ArrowRight":
-          return await nextPokemon();
-        case " ":
-          event.preventDefault();
-          return await onClick();
-      }
-    };
-
-    document.body.addEventListener("keydown", handleKeyPress);
-
-    return () => {
-      document.body.removeEventListener("keydown", handleKeyPress);
-    };
-  }, [id, hideName]);
 
   const pokeId = toPokeID(id);
   const pokemon = getPokemon(pokeId);
+
+  if (String(pokeId) !== String(id)) {
+    return <Navigate to={`/${pokeId}`} replace />;
+  }
 
   const changePokemon = async (id: number) => {
     const pokeId = toPokeID(id);
@@ -59,6 +46,8 @@ function App() {
     await changePokemon(pokeId + 1);
   };
 
+  useSwipe(nextPokemon, prevPokemon, [id]);
+
   const randomPokemon = async () => {
     await changePokemon(getRandom());
   };
@@ -75,6 +64,21 @@ function App() {
       await randomPokemon();
     }
   };
+
+  useKeypress(
+    async (event: KeyboardEvent) => {
+      switch (event.key) {
+        case "ArrowLeft":
+          return await prevPokemon();
+        case "ArrowRight":
+          return await nextPokemon();
+        case " ":
+          event.preventDefault();
+          return await onClick();
+      }
+    },
+    [id, hideName],
+  );
 
   return (
     <div className="App">
