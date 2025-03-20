@@ -1,26 +1,32 @@
-type Enumerate<N extends number, Acc extends number[] = []> = Acc['length'] extends N
+type Enumerate<
+  N extends number,
+  Acc extends number[] = [],
+> = Acc["length"] extends N
   ? Acc[number]
-  : Enumerate<N, [...Acc, Acc['length']]>
+  : Enumerate<N, [...Acc, Acc["length"]]>;
 
-type IntRange<F extends number, T extends number> = Exclude<Enumerate<T>, Enumerate<F>>
+type IntRange<F extends number, T extends number> = Exclude<
+  Enumerate<T>,
+  Enumerate<F>
+>;
 
-const MIN_ID = 1
-const ONE_OVER_MAX_ID = 152
+const MIN_ID = 1;
+const ONE_OVER_MAX_ID = 152;
 
-type PokeID = IntRange<typeof MIN_ID, typeof ONE_OVER_MAX_ID>
+type PokeID = IntRange<typeof MIN_ID, typeof ONE_OVER_MAX_ID>;
 
 export function clamp(id: number | string | undefined): PokeID {
-  id = +(id || '')
+  id = +(id || "");
   if (id <= MIN_ID) {
-    return MIN_ID
+    return MIN_ID;
   } else if (id >= ONE_OVER_MAX_ID) {
-    return (ONE_OVER_MAX_ID - 1) as PokeID
+    return (ONE_OVER_MAX_ID - 1) as PokeID;
   }
-  return id as PokeID
+  return id as PokeID;
 }
 
 export function getRandom(): PokeID {
-  return getRandomInt(MIN_ID, ONE_OVER_MAX_ID) as PokeID
+  return getRandomInt(MIN_ID, ONE_OVER_MAX_ID) as PokeID;
 }
 
 function getRandomInt(min: number, max: number): number {
@@ -29,4 +35,4 @@ function getRandomInt(min: number, max: number): number {
   return Math.floor(Math.random() * (max - min) + min);
 }
 
-export default PokeID
+export default PokeID;
