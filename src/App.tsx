@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router";
 
 import "./App.css";
-import PokeID, { clamp, getRandom } from "./pokequiz/PokeID";
+import PokeID, { toPokeID, getRandom } from "./pokequiz/PokeID";
 import Pokemon from "./pokequiz/Pokemon";
 import Button from "./pokequiz/Button";
 import getPokemon from "./pokequiz/registry";
@@ -34,11 +34,11 @@ function App() {
     };
   }, [id, hideName]);
 
-  const pokeId = clamp(id);
+  const pokeId = toPokeID(id);
   const pokemon = getPokemon(pokeId);
 
   const changePokemon = async (id: number) => {
-    const pokeId = clamp(id);
+    const pokeId = toPokeID(id);
     const preloadPromise = preloadImage(pokeId);
     const loaded = await Promise.race([preloadPromise, timeout(25)]);
     if (!loaded) {
