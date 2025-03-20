@@ -1,8 +1,8 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useParams, useNavigate } from 'react-router'
 
 import './App.css'
-import PokeID, { clamp } from './pokequiz/PokeID'
+import PokeID, { clamp, getRandom } from './pokequiz/PokeID'
 import Pokemon from './pokequiz/Pokemon'
 import Button from './pokequiz/Button'
 import getPokemon from './pokequiz/registry'
@@ -14,6 +14,24 @@ function App() {
   const [hideName, setHideName] = useState(true)
   const [hideTypes, setHideTypes] = useState(true)
   const [loading, setLoading] = useState(false)
+  useEffect(() => {
+    const handleKeyPress = async (event: KeyboardEvent) => {
+
+      switch (event.key) {
+        case 'ArrowLeft': return await prevPokemon();
+        case 'ArrowRight': return await nextPokemon();
+        case ' ':
+          event.preventDefault();
+          return await onClick();
+      }
+    };
+
+    document.body.addEventListener('keydown', handleKeyPress);
+
+    return () => {
+      document.body.removeEventListener('keydown', handleKeyPress);
+    };
+  }, [id, hideName]);
 
   const pokeId = clamp(id)
   const pokemon = getPokemon(pokeId)
@@ -32,16 +50,28 @@ function App() {
     navigate(`/${pokeId}`)
   }
 
+  const prevPokemon = async () => {
+    await changePokemon(pokeId - 1);
+  }
+
+  const nextPokemon = async () => {
+    await changePokemon(pokeId + 1);
+  }
+
+  const randomPokemon = async () => {
+    await changePokemon(getRandom());
+  }
+
   const reveal = () => {
     setHideName(false)
     setHideTypes(false)
   }
 
-  const onClick = () => {
+  const onClick = async () => {
     if (hideName) {
-      reveal()
+      reveal();
     } else {
-      changePokemon(getRandomPokemon())
+      await randomPokemon();
     }
   }
 
@@ -53,9 +83,9 @@ function App() {
         </div>
       )}
       <div>
-        <Button onClick={async () => changePokemon(pokeId - 1)}>Previous</Button>
-        <Button onClick={async () => changePokemon(getRandomPokemon())}>Random</Button>
-        <Button onClick={async () => changePokemon(pokeId + 1)}>Next</Button>
+        <Button onClick={prevPokemon}>Previous</Button>
+        <Button onClick={randomPokemon}>Random</Button>
+        <Button onClick={nextPokemon}>Next</Button>
       </div>
       <div>
         <Button onClick={() => setHideTypes(false)}>Hint</Button>
@@ -66,16 +96,6 @@ function App() {
       </div>
     </div>
   )
-}
-
-export function getRandomPokemon(): PokeID {
-  return clamp(getRandomInt(1, 152))
-}
-
-function getRandomInt(min: number, max: number): number {
-  min = Math.ceil(min);
-  max = Math.floor(max);
-  return Math.floor(Math.random() * (max - min) + min);
 }
 
 async function preloadImage(id: PokeID) {

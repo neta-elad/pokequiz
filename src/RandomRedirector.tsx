@@ -1,13 +1,13 @@
 import { useEffect } from 'react'
 import { useNavigate } from 'react-router'
 
-import { getRandomPokemon } from './App'
+import { getRandom } from './pokequiz/PokeID'
 
 export default function RandomRedirector() {
   const navigate = useNavigate()
 
   useEffect(() => {
-    navigate(`/${getRandomPokemon()}`)
+    navigate(`/${getRandom()}`)
   }, [])
 
   return (
