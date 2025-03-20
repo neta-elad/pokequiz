@@ -11,7 +11,7 @@ function useSwipe(
     let endX = 0;
 
     const handleTouchStart = (e: TouchEvent) => {
-      startX = e.touches[0].clientX;
+      endX = startX = e.touches[0].clientX;
     };
 
     const handleTouchMove = (e: TouchEvent) => {
