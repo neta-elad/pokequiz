@@ -2,16 +2,16 @@ import { DependencyList, useEffect } from "react";
 
 export default function useKeypress(
   listener: (
-    this: HTMLElement,
+    this: Document,
     ev: HTMLElementEventMap["keypress"],
   ) => void | Promise<void>,
   deps?: DependencyList,
 ) {
   return useEffect(() => {
-    document.body.addEventListener("keydown", listener);
+    document.addEventListener("keydown", listener);
 
     return () => {
-      document.body.removeEventListener("keydown", listener);
+      document.removeEventListener("keydown", listener);
     };
   }, deps);
 }

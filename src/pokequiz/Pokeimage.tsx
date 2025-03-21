@@ -1,15 +1,11 @@
-import PokeID from "./PokeID";
-
-export interface PokeimageProps {
-  pokeid: PokeID;
+export interface PokeImageProps {
+  id: number;
 }
 
-function Pokeimage({ pokeid }: PokeimageProps) {
-  return <img src={getPokeimageUrl(pokeid)} />;
+export default function PokeImage({ id }: PokeImageProps) {
+  return <img src={getPokeImageUrl(id)} />;
 }
 
-export function getPokeimageUrl(id: PokeID): string {
-  return `https://assets.pokemon.com/assets/cms2/img/pokedex/full/${("" + id).padStart(3, "0")}.png`;
+export function getPokeImageUrl(id: number): string {
+  return `https://assets.pokemon.com/assets/cms2/img/pokedex/full/${String(id).padStart(3, "0")}.png`;
 }
-
-export default Pokeimage;

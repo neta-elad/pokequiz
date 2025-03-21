@@ -1,29 +1,10 @@
-export enum PoketypeType {
-  normal,
-  fire,
-  fighting,
-  water,
-  flying,
-  grass,
-  poison,
-  electric,
-  ground,
-  psychic,
-  rock,
-  ice,
-  bug,
-  dragon,
-  ghost,
-  dark,
-  steel,
-  fairy,
-}
+import { PokeType } from "../models/Pokemon";
 
 export interface PoketypeProps {
-  poketype: PoketypeType;
+  poketype: PokeType;
 }
 
-function Poketype({ poketype }: PoketypeProps) {
+export default function PokeTypeTag({ poketype }: PoketypeProps) {
   return (
     <div
       className={`
@@ -37,5 +18,3 @@ function Poketype({ poketype }: PoketypeProps) {
     </div>
   );
 }
-
-export default Poketype;

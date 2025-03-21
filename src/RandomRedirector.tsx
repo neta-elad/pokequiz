@@ -1,7 +1,10 @@
 import { Navigate } from "react-router";
+import { RegionList } from "./models/Region";
 
-import { getRandom } from "./pokequiz/PokeID";
+export interface RandomRedirectorProps {
+  regions: RegionList;
+}
 
-export default function RandomRedirector() {
-  return <Navigate to={`/${getRandom()}`} replace />;
+export default function RandomRedirector({ regions }: RandomRedirectorProps) {
+  return <Navigate to={`/${regions.getRandom()}`} replace />; // todo
 }

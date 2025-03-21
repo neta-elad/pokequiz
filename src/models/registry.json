@@ -1,0 +1,7761 @@
+{
+  "pokemons": {
+    "1": {
+      "pokeid": 1,
+      "name": "bulbasaur",
+      "types": [
+        "grass",
+        "poison"
+      ]
+    },
+    "2": {
+      "pokeid": 2,
+      "name": "ivysaur",
+      "types": [
+        "grass",
+        "poison"
+      ]
+    },
+    "3": {
+      "pokeid": 3,
+      "name": "venusaur",
+      "types": [
+        "grass",
+        "poison"
+      ]
+    },
+    "4": {
+      "pokeid": 4,
+      "name": "charmander",
+      "types": [
+        "fire"
+      ]
+    },
+    "5": {
+      "pokeid": 5,
+      "name": "charmeleon",
+      "types": [
+        "fire"
+      ]
+    },
+    "6": {
+      "pokeid": 6,
+      "name": "charizard",
+      "types": [
+        "fire",
+        "flying"
+      ]
+    },
+    "7": {
+      "pokeid": 7,
+      "name": "squirtle",
+      "types": [
+        "water"
+      ]
+    },
+    "8": {
+      "pokeid": 8,
+      "name": "wartortle",
+      "types": [
+        "water"
+      ]
+    },
+    "9": {
+      "pokeid": 9,
+      "name": "blastoise",
+      "types": [
+        "water"
+      ]
+    },
+    "10": {
+      "pokeid": 10,
+      "name": "caterpie",
+      "types": [
+        "bug"
+      ]
+    },
+    "11": {
+      "pokeid": 11,
+      "name": "metapod",
+      "types": [
+        "bug"
+      ]
+    },
+    "12": {
+      "pokeid": 12,
+      "name": "butterfree",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    "13": {
+      "pokeid": 13,
+      "name": "weedle",
+      "types": [
+        "bug",
+        "poison"
+      ]
+    },
+    "14": {
+      "pokeid": 14,
+      "name": "kakuna",
+      "types": [
+        "bug",
+        "poison"
+      ]
+    },
+    "15": {
+      "pokeid": 15,
+      "name": "beedrill",
+      "types": [
+        "bug",
+        "poison"
+      ]
+    },
+    "16": {
+      "pokeid": 16,
+      "name": "pidgey",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    "17": {
+      "pokeid": 17,
+      "name": "pidgeotto",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    "18": {
+      "pokeid": 18,
+      "name": "pidgeot",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    "19": {
+      "pokeid": 19,
+      "name": "rattata",
+      "types": [
+        "normal"
+      ]
+    },
+    "20": {
+      "pokeid": 20,
+      "name": "raticate",
+      "types": [
+        "normal"
+      ]
+    },
+    "21": {
+      "pokeid": 21,
+      "name": "spearow",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    "22": {
+      "pokeid": 22,
+      "name": "fearow",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    "23": {
+      "pokeid": 23,
+      "name": "ekans",
+      "types": [
+        "poison"
+      ]
+    },
+    "24": {
+      "pokeid": 24,
+      "name": "arbok",
+      "types": [
+        "poison"
+      ]
+    },
+    "25": {
+      "pokeid": 25,
+      "name": "pikachu",
+      "types": [
+        "electric"
+      ]
+    },
+    "26": {
+      "pokeid": 26,
+      "name": "raichu",
+      "types": [
+        "electric"
+      ]
+    },
+    "27": {
+      "pokeid": 27,
+      "name": "sandshrew",
+      "types": [
+        "ground"
+      ]
+    },
+    "28": {
+      "pokeid": 28,
+      "name": "sandslash",
+      "types": [
+        "ground"
+      ]
+    },
+    "29": {
+      "pokeid": 29,
+      "name": "nidoran-f",
+      "types": [
+        "poison"
+      ]
+    },
+    "30": {
+      "pokeid": 30,
+      "name": "nidorina",
+      "types": [
+        "poison"
+      ]
+    },
+    "31": {
+      "pokeid": 31,
+      "name": "nidoqueen",
+      "types": [
+        "poison",
+        "ground"
+      ]
+    },
+    "32": {
+      "pokeid": 32,
+      "name": "nidoran-m",
+      "types": [
+        "poison"
+      ]
+    },
+    "33": {
+      "pokeid": 33,
+      "name": "nidorino",
+      "types": [
+        "poison"
+      ]
+    },
+    "34": {
+      "pokeid": 34,
+      "name": "nidoking",
+      "types": [
+        "poison",
+        "ground"
+      ]
+    },
+    "35": {
+      "pokeid": 35,
+      "name": "clefairy",
+      "types": [
+        "fairy"
+      ]
+    },
+    "36": {
+      "pokeid": 36,
+      "name": "clefable",
+      "types": [
+        "fairy"
+      ]
+    },
+    "37": {
+      "pokeid": 37,
+      "name": "vulpix",
+      "types": [
+        "fire"
+      ]
+    },
+    "38": {
+      "pokeid": 38,
+      "name": "ninetales",
+      "types": [
+        "fire"
+      ]
+    },
+    "39": {
+      "pokeid": 39,
+      "name": "jigglypuff",
+      "types": [
+        "normal",
+        "fairy"
+      ]
+    },
+    "40": {
+      "pokeid": 40,
+      "name": "wigglytuff",
+      "types": [
+        "normal",
+        "fairy"
+      ]
+    },
+    "41": {
+      "pokeid": 41,
+      "name": "zubat",
+      "types": [
+        "poison",
+        "flying"
+      ]
+    },
+    "42": {
+      "pokeid": 42,
+      "name": "golbat",
+      "types": [
+        "poison",
+        "flying"
+      ]
+    },
+    "43": {
+      "pokeid": 43,
+      "name": "oddish",
+      "types": [
+        "grass",
+        "poison"
+      ]
+    },
+    "44": {
+      "pokeid": 44,
+      "name": "gloom",
+      "types": [
+        "grass",
+        "poison"
+      ]
+    },
+    "45": {
+      "pokeid": 45,
+      "name": "vileplume",
+      "types": [
+        "grass",
+        "poison"
+      ]
+    },
+    "46": {
+      "pokeid": 46,
+      "name": "paras",
+      "types": [
+        "bug",
+        "grass"
+      ]
+    },
+    "47": {
+      "pokeid": 47,
+      "name": "parasect",
+      "types": [
+        "bug",
+        "grass"
+      ]
+    },
+    "48": {
+      "pokeid": 48,
+      "name": "venonat",
+      "types": [
+        "bug",
+        "poison"
+      ]
+    },
+    "49": {
+      "pokeid": 49,
+      "name": "venomoth",
+      "types": [
+        "bug",
+        "poison"
+      ]
+    },
+    "50": {
+      "pokeid": 50,
+      "name": "diglett",
+      "types": [
+        "ground"
+      ]
+    },
+    "51": {
+      "pokeid": 51,
+      "name": "dugtrio",
+      "types": [
+        "ground"
+      ]
+    },
+    "52": {
+      "pokeid": 52,
+      "name": "meowth",
+      "types": [
+        "normal"
+      ]
+    },
+    "53": {
+      "pokeid": 53,
+      "name": "persian",
+      "types": [
+        "normal"
+      ]
+    },
+    "54": {
+      "pokeid": 54,
+      "name": "psyduck",
+      "types": [
+        "water"
+      ]
+    },
+    "55": {
+      "pokeid": 55,
+      "name": "golduck",
+      "types": [
+        "water"
+      ]
+    },
+    "56": {
+      "pokeid": 56,
+      "name": "mankey",
+      "types": [
+        "fighting"
+      ]
+    },
+    "57": {
+      "pokeid": 57,
+      "name": "primeape",
+      "types": [
+        "fighting"
+      ]
+    },
+    "58": {
+      "pokeid": 58,
+      "name": "growlithe",
+      "types": [
+        "fire"
+      ]
+    },
+    "59": {
+      "pokeid": 59,
+      "name": "arcanine",
+      "types": [
+        "fire"
+      ]
+    },
+    "60": {
+      "pokeid": 60,
+      "name": "poliwag",
+      "types": [
+        "water"
+      ]
+    },
+    "61": {
+      "pokeid": 61,
+      "name": "poliwhirl",
+      "types": [
+        "water"
+      ]
+    },
+    "62": {
+      "pokeid": 62,
+      "name": "poliwrath",
+      "types": [
+        "water",
+        "fighting"
+      ]
+    },
+    "63": {
+      "pokeid": 63,
+      "name": "abra",
+      "types": [
+        "psychic"
+      ]
+    },
+    "64": {
+      "pokeid": 64,
+      "name": "kadabra",
+      "types": [
+        "psychic"
+      ]
+    },
+    "65": {
+      "pokeid": 65,
+      "name": "alakazam",
+      "types": [
+        "psychic"
+      ]
+    },
+    "66": {
+      "pokeid": 66,
+      "name": "machop",
+      "types": [
+        "fighting"
+      ]
+    },
+    "67": {
+      "pokeid": 67,
+      "name": "machoke",
+      "types": [
+        "fighting"
+      ]
+    },
+    "68": {
+      "pokeid": 68,
+      "name": "machamp",
+      "types": [
+        "fighting"
+      ]
+    },
+    "69": {
+      "pokeid": 69,
+      "name": "bellsprout",
+      "types": [
+        "grass",
+        "poison"
+      ]
+    },
+    "70": {
+      "pokeid": 70,
+      "name": "weepinbell",
+      "types": [
+        "grass",
+        "poison"
+      ]
+    },
+    "71": {
+      "pokeid": 71,
+      "name": "victreebel",
+      "types": [
+        "grass",
+        "poison"
+      ]
+    },
+    "72": {
+      "pokeid": 72,
+      "name": "tentacool",
+      "types": [
+        "water",
+        "poison"
+      ]
+    },
+    "73": {
+      "pokeid": 73,
+      "name": "tentacruel",
+      "types": [
+        "water",
+        "poison"
+      ]
+    },
+    "74": {
+      "pokeid": 74,
+      "name": "geodude",
+      "types": [
+        "rock",
+        "ground"
+      ]
+    },
+    "75": {
+      "pokeid": 75,
+      "name": "graveler",
+      "types": [
+        "rock",
+        "ground"
+      ]
+    },
+    "76": {
+      "pokeid": 76,
+      "name": "golem",
+      "types": [
+        "rock",
+        "ground"
+      ]
+    },
+    "77": {
+      "pokeid": 77,
+      "name": "ponyta",
+      "types": [
+        "fire"
+      ]
+    },
+    "78": {
+      "pokeid": 78,
+      "name": "rapidash",
+      "types": [
+        "fire"
+      ]
+    },
+    "79": {
+      "pokeid": 79,
+      "name": "slowpoke",
+      "types": [
+        "water",
+        "psychic"
+      ]
+    },
+    "80": {
+      "pokeid": 80,
+      "name": "slowbro",
+      "types": [
+        "water",
+        "psychic"
+      ]
+    },
+    "81": {
+      "pokeid": 81,
+      "name": "magnemite",
+      "types": [
+        "electric",
+        "steel"
+      ]
+    },
+    "82": {
+      "pokeid": 82,
+      "name": "magneton",
+      "types": [
+        "electric",
+        "steel"
+      ]
+    },
+    "83": {
+      "pokeid": 83,
+      "name": "farfetchd",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    "84": {
+      "pokeid": 84,
+      "name": "doduo",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    "85": {
+      "pokeid": 85,
+      "name": "dodrio",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    "86": {
+      "pokeid": 86,
+      "name": "seel",
+      "types": [
+        "water"
+      ]
+    },
+    "87": {
+      "pokeid": 87,
+      "name": "dewgong",
+      "types": [
+        "water",
+        "ice"
+      ]
+    },
+    "88": {
+      "pokeid": 88,
+      "name": "grimer",
+      "types": [
+        "poison"
+      ]
+    },
+    "89": {
+      "pokeid": 89,
+      "name": "muk",
+      "types": [
+        "poison"
+      ]
+    },
+    "90": {
+      "pokeid": 90,
+      "name": "shellder",
+      "types": [
+        "water"
+      ]
+    },
+    "91": {
+      "pokeid": 91,
+      "name": "cloyster",
+      "types": [
+        "water",
+        "ice"
+      ]
+    },
+    "92": {
+      "pokeid": 92,
+      "name": "gastly",
+      "types": [
+        "ghost",
+        "poison"
+      ]
+    },
+    "93": {
+      "pokeid": 93,
+      "name": "haunter",
+      "types": [
+        "ghost",
+        "poison"
+      ]
+    },
+    "94": {
+      "pokeid": 94,
+      "name": "gengar",
+      "types": [
+        "ghost",
+        "poison"
+      ]
+    },
+    "95": {
+      "pokeid": 95,
+      "name": "onix",
+      "types": [
+        "rock",
+        "ground"
+      ]
+    },
+    "96": {
+      "pokeid": 96,
+      "name": "drowzee",
+      "types": [
+        "psychic"
+      ]
+    },
+    "97": {
+      "pokeid": 97,
+      "name": "hypno",
+      "types": [
+        "psychic"
+      ]
+    },
+    "98": {
+      "pokeid": 98,
+      "name": "krabby",
+      "types": [
+        "water"
+      ]
+    },
+    "99": {
+      "pokeid": 99,
+      "name": "kingler",
+      "types": [
+        "water"
+      ]
+    },
+    "100": {
+      "pokeid": 100,
+      "name": "voltorb",
+      "types": [
+        "electric"
+      ]
+    },
+    "101": {
+      "pokeid": 101,
+      "name": "electrode",
+      "types": [
+        "electric"
+      ]
+    },
+    "102": {
+      "pokeid": 102,
+      "name": "exeggcute",
+      "types": [
+        "grass",
+        "psychic"
+      ]
+    },
+    "103": {
+      "pokeid": 103,
+      "name": "exeggutor",
+      "types": [
+        "grass",
+        "psychic"
+      ]
+    },
+    "104": {
+      "pokeid": 104,
+      "name": "cubone",
+      "types": [
+        "ground"
+      ]
+    },
+    "105": {
+      "pokeid": 105,
+      "name": "marowak",
+      "types": [
+        "ground"
+      ]
+    },
+    "106": {
+      "pokeid": 106,
+      "name": "hitmonlee",
+      "types": [
+        "fighting"
+      ]
+    },
+    "107": {
+      "pokeid": 107,
+      "name": "hitmonchan",
+      "types": [
+        "fighting"
+      ]
+    },
+    "108": {
+      "pokeid": 108,
+      "name": "lickitung",
+      "types": [
+        "normal"
+      ]
+    },
+    "109": {
+      "pokeid": 109,
+      "name": "koffing",
+      "types": [
+        "poison"
+      ]
+    },
+    "110": {
+      "pokeid": 110,
+      "name": "weezing",
+      "types": [
+        "poison"
+      ]
+    },
+    "111": {
+      "pokeid": 111,
+      "name": "rhyhorn",
+      "types": [
+        "ground",
+        "rock"
+      ]
+    },
+    "112": {
+      "pokeid": 112,
+      "name": "rhydon",
+      "types": [
+        "ground",
+        "rock"
+      ]
+    },
+    "113": {
+      "pokeid": 113,
+      "name": "chansey",
+      "types": [
+        "normal"
+      ]
+    },
+    "114": {
+      "pokeid": 114,
+      "name": "tangela",
+      "types": [
+        "grass"
+      ]
+    },
+    "115": {
+      "pokeid": 115,
+      "name": "kangaskhan",
+      "types": [
+        "normal"
+      ]
+    },
+    "116": {
+      "pokeid": 116,
+      "name": "horsea",
+      "types": [
+        "water"
+      ]
+    },
+    "117": {
+      "pokeid": 117,
+      "name": "seadra",
+      "types": [
+        "water"
+      ]
+    },
+    "118": {
+      "pokeid": 118,
+      "name": "goldeen",
+      "types": [
+        "water"
+      ]
+    },
+    "119": {
+      "pokeid": 119,
+      "name": "seaking",
+      "types": [
+        "water"
+      ]
+    },
+    "120": {
+      "pokeid": 120,
+      "name": "staryu",
+      "types": [
+        "water"
+      ]
+    },
+    "121": {
+      "pokeid": 121,
+      "name": "starmie",
+      "types": [
+        "water",
+        "psychic"
+      ]
+    },
+    "122": {
+      "pokeid": 122,
+      "name": "mr-mime",
+      "types": [
+        "psychic",
+        "fairy"
+      ]
+    },
+    "123": {
+      "pokeid": 123,
+      "name": "scyther",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    "124": {
+      "pokeid": 124,
+      "name": "jynx",
+      "types": [
+        "ice",
+        "psychic"
+      ]
+    },
+    "125": {
+      "pokeid": 125,
+      "name": "electabuzz",
+      "types": [
+        "electric"
+      ]
+    },
+    "126": {
+      "pokeid": 126,
+      "name": "magmar",
+      "types": [
+        "fire"
+      ]
+    },
+    "127": {
+      "pokeid": 127,
+      "name": "pinsir",
+      "types": [
+        "bug"
+      ]
+    },
+    "128": {
+      "pokeid": 128,
+      "name": "tauros",
+      "types": [
+        "normal"
+      ]
+    },
+    "129": {
+      "pokeid": 129,
+      "name": "magikarp",
+      "types": [
+        "water"
+      ]
+    },
+    "130": {
+      "pokeid": 130,
+      "name": "gyarados",
+      "types": [
+        "water",
+        "flying"
+      ]
+    },
+    "131": {
+      "pokeid": 131,
+      "name": "lapras",
+      "types": [
+        "water",
+        "ice"
+      ]
+    },
+    "132": {
+      "pokeid": 132,
+      "name": "ditto",
+      "types": [
+        "normal"
+      ]
+    },
+    "133": {
+      "pokeid": 133,
+      "name": "eevee",
+      "types": [
+        "normal"
+      ]
+    },
+    "134": {
+      "pokeid": 134,
+      "name": "vaporeon",
+      "types": [
+        "water"
+      ]
+    },
+    "135": {
+      "pokeid": 135,
+      "name": "jolteon",
+      "types": [
+        "electric"
+      ]
+    },
+    "136": {
+      "pokeid": 136,
+      "name": "flareon",
+      "types": [
+        "fire"
+      ]
+    },
+    "137": {
+      "pokeid": 137,
+      "name": "porygon",
+      "types": [
+        "normal"
+      ]
+    },
+    "138": {
+      "pokeid": 138,
+      "name": "omanyte",
+      "types": [
+        "rock",
+        "water"
+      ]
+    },
+    "139": {
+      "pokeid": 139,
+      "name": "omastar",
+      "types": [
+        "rock",
+        "water"
+      ]
+    },
+    "140": {
+      "pokeid": 140,
+      "name": "kabuto",
+      "types": [
+        "rock",
+        "water"
+      ]
+    },
+    "141": {
+      "pokeid": 141,
+      "name": "kabutops",
+      "types": [
+        "rock",
+        "water"
+      ]
+    },
+    "142": {
+      "pokeid": 142,
+      "name": "aerodactyl",
+      "types": [
+        "rock",
+        "flying"
+      ]
+    },
+    "143": {
+      "pokeid": 143,
+      "name": "snorlax",
+      "types": [
+        "normal"
+      ]
+    },
+    "144": {
+      "pokeid": 144,
+      "name": "articuno",
+      "types": [
+        "ice",
+        "flying"
+      ]
+    },
+    "145": {
+      "pokeid": 145,
+      "name": "zapdos",
+      "types": [
+        "electric",
+        "flying"
+      ]
+    },
+    "146": {
+      "pokeid": 146,
+      "name": "moltres",
+      "types": [
+        "fire",
+        "flying"
+      ]
+    },
+    "147": {
+      "pokeid": 147,
+      "name": "dratini",
+      "types": [
+        "dragon"
+      ]
+    },
+    "148": {
+      "pokeid": 148,
+      "name": "dragonair",
+      "types": [
+        "dragon"
+      ]
+    },
+    "149": {
+      "pokeid": 149,
+      "name": "dragonite",
+      "types": [
+        "dragon",
+        "flying"
+      ]
+    },
+    "150": {
+      "pokeid": 150,
+      "name": "mewtwo",
+      "types": [
+        "psychic"
+      ]
+    },
+    "151": {
+      "pokeid": 151,
+      "name": "mew",
+      "types": [
+        "psychic"
+      ]
+    },
+    "152": {
+      "pokeid": 152,
+      "name": "chikorita",
+      "types": [
+        "grass"
+      ]
+    },
+    "153": {
+      "pokeid": 153,
+      "name": "bayleef",
+      "types": [
+        "grass"
+      ]
+    },
+    "154": {
+      "pokeid": 154,
+      "name": "meganium",
+      "types": [
+        "grass"
+      ]
+    },
+    "155": {
+      "pokeid": 155,
+      "name": "cyndaquil",
+      "types": [
+        "fire"
+      ]
+    },
+    "156": {
+      "pokeid": 156,
+      "name": "quilava",
+      "types": [
+        "fire"
+      ]
+    },
+    "157": {
+      "pokeid": 157,
+      "name": "typhlosion",
+      "types": [
+        "fire"
+      ]
+    },
+    "158": {
+      "pokeid": 158,
+      "name": "totodile",
+      "types": [
+        "water"
+      ]
+    },
+    "159": {
+      "pokeid": 159,
+      "name": "croconaw",
+      "types": [
+        "water"
+      ]
+    },
+    "160": {
+      "pokeid": 160,
+      "name": "feraligatr",
+      "types": [
+        "water"
+      ]
+    },
+    "161": {
+      "pokeid": 161,
+      "name": "sentret",
+      "types": [
+        "normal"
+      ]
+    },
+    "162": {
+      "pokeid": 162,
+      "name": "furret",
+      "types": [
+        "normal"
+      ]
+    },
+    "163": {
+      "pokeid": 163,
+      "name": "hoothoot",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    "164": {
+      "pokeid": 164,
+      "name": "noctowl",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    "165": {
+      "pokeid": 165,
+      "name": "ledyba",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    "166": {
+      "pokeid": 166,
+      "name": "ledian",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    "167": {
+      "pokeid": 167,
+      "name": "spinarak",
+      "types": [
+        "bug",
+        "poison"
+      ]
+    },
+    "168": {
+      "pokeid": 168,
+      "name": "ariados",
+      "types": [
+        "bug",
+        "poison"
+      ]
+    },
+    "169": {
+      "pokeid": 169,
+      "name": "crobat",
+      "types": [
+        "poison",
+        "flying"
+      ]
+    },
+    "170": {
+      "pokeid": 170,
+      "name": "chinchou",
+      "types": [
+        "water",
+        "electric"
+      ]
+    },
+    "171": {
+      "pokeid": 171,
+      "name": "lanturn",
+      "types": [
+        "water",
+        "electric"
+      ]
+    },
+    "172": {
+      "pokeid": 172,
+      "name": "pichu",
+      "types": [
+        "electric"
+      ]
+    },
+    "173": {
+      "pokeid": 173,
+      "name": "cleffa",
+      "types": [
+        "fairy"
+      ]
+    },
+    "174": {
+      "pokeid": 174,
+      "name": "igglybuff",
+      "types": [
+        "normal",
+        "fairy"
+      ]
+    },
+    "175": {
+      "pokeid": 175,
+      "name": "togepi",
+      "types": [
+        "fairy"
+      ]
+    },
+    "176": {
+      "pokeid": 176,
+      "name": "togetic",
+      "types": [
+        "fairy",
+        "flying"
+      ]
+    },
+    "177": {
+      "pokeid": 177,
+      "name": "natu",
+      "types": [
+        "psychic",
+        "flying"
+      ]
+    },
+    "178": {
+      "pokeid": 178,
+      "name": "xatu",
+      "types": [
+        "psychic",
+        "flying"
+      ]
+    },
+    "179": {
+      "pokeid": 179,
+      "name": "mareep",
+      "types": [
+        "electric"
+      ]
+    },
+    "180": {
+      "pokeid": 180,
+      "name": "flaaffy",
+      "types": [
+        "electric"
+      ]
+    },
+    "181": {
+      "pokeid": 181,
+      "name": "ampharos",
+      "types": [
+        "electric"
+      ]
+    },
+    "182": {
+      "pokeid": 182,
+      "name": "bellossom",
+      "types": [
+        "grass"
+      ]
+    },
+    "183": {
+      "pokeid": 183,
+      "name": "marill",
+      "types": [
+        "water",
+        "fairy"
+      ]
+    },
+    "184": {
+      "pokeid": 184,
+      "name": "azumarill",
+      "types": [
+        "water",
+        "fairy"
+      ]
+    },
+    "185": {
+      "pokeid": 185,
+      "name": "sudowoodo",
+      "types": [
+        "rock"
+      ]
+    },
+    "186": {
+      "pokeid": 186,
+      "name": "politoed",
+      "types": [
+        "water"
+      ]
+    },
+    "187": {
+      "pokeid": 187,
+      "name": "hoppip",
+      "types": [
+        "grass",
+        "flying"
+      ]
+    },
+    "188": {
+      "pokeid": 188,
+      "name": "skiploom",
+      "types": [
+        "grass",
+        "flying"
+      ]
+    },
+    "189": {
+      "pokeid": 189,
+      "name": "jumpluff",
+      "types": [
+        "grass",
+        "flying"
+      ]
+    },
+    "190": {
+      "pokeid": 190,
+      "name": "aipom",
+      "types": [
+        "normal"
+      ]
+    },
+    "191": {
+      "pokeid": 191,
+      "name": "sunkern",
+      "types": [
+        "grass"
+      ]
+    },
+    "192": {
+      "pokeid": 192,
+      "name": "sunflora",
+      "types": [
+        "grass"
+      ]
+    },
+    "193": {
+      "pokeid": 193,
+      "name": "yanma",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    "194": {
+      "pokeid": 194,
+      "name": "wooper",
+      "types": [
+        "water",
+        "ground"
+      ]
+    },
+    "195": {
+      "pokeid": 195,
+      "name": "quagsire",
+      "types": [
+        "water",
+        "ground"
+      ]
+    },
+    "196": {
+      "pokeid": 196,
+      "name": "espeon",
+      "types": [
+        "psychic"
+      ]
+    },
+    "197": {
+      "pokeid": 197,
+      "name": "umbreon",
+      "types": [
+        "dark"
+      ]
+    },
+    "198": {
+      "pokeid": 198,
+      "name": "murkrow",
+      "types": [
+        "dark",
+        "flying"
+      ]
+    },
+    "199": {
+      "pokeid": 199,
+      "name": "slowking",
+      "types": [
+        "water",
+        "psychic"
+      ]
+    },
+    "200": {
+      "pokeid": 200,
+      "name": "misdreavus",
+      "types": [
+        "ghost"
+      ]
+    },
+    "201": {
+      "pokeid": 201,
+      "name": "unown",
+      "types": [
+        "psychic"
+      ]
+    },
+    "202": {
+      "pokeid": 202,
+      "name": "wobbuffet",
+      "types": [
+        "psychic"
+      ]
+    },
+    "203": {
+      "pokeid": 203,
+      "name": "girafarig",
+      "types": [
+        "normal",
+        "psychic"
+      ]
+    },
+    "204": {
+      "pokeid": 204,
+      "name": "pineco",
+      "types": [
+        "bug"
+      ]
+    },
+    "205": {
+      "pokeid": 205,
+      "name": "forretress",
+      "types": [
+        "bug",
+        "steel"
+      ]
+    },
+    "206": {
+      "pokeid": 206,
+      "name": "dunsparce",
+      "types": [
+        "normal"
+      ]
+    },
+    "207": {
+      "pokeid": 207,
+      "name": "gligar",
+      "types": [
+        "ground",
+        "flying"
+      ]
+    },
+    "208": {
+      "pokeid": 208,
+      "name": "steelix",
+      "types": [
+        "steel",
+        "ground"
+      ]
+    },
+    "209": {
+      "pokeid": 209,
+      "name": "snubbull",
+      "types": [
+        "fairy"
+      ]
+    },
+    "210": {
+      "pokeid": 210,
+      "name": "granbull",
+      "types": [
+        "fairy"
+      ]
+    },
+    "211": {
+      "pokeid": 211,
+      "name": "qwilfish",
+      "types": [
+        "water",
+        "poison"
+      ]
+    },
+    "212": {
+      "pokeid": 212,
+      "name": "scizor",
+      "types": [
+        "bug",
+        "steel"
+      ]
+    },
+    "213": {
+      "pokeid": 213,
+      "name": "shuckle",
+      "types": [
+        "bug",
+        "rock"
+      ]
+    },
+    "214": {
+      "pokeid": 214,
+      "name": "heracross",
+      "types": [
+        "bug",
+        "fighting"
+      ]
+    },
+    "215": {
+      "pokeid": 215,
+      "name": "sneasel",
+      "types": [
+        "dark",
+        "ice"
+      ]
+    },
+    "216": {
+      "pokeid": 216,
+      "name": "teddiursa",
+      "types": [
+        "normal"
+      ]
+    },
+    "217": {
+      "pokeid": 217,
+      "name": "ursaring",
+      "types": [
+        "normal"
+      ]
+    },
+    "218": {
+      "pokeid": 218,
+      "name": "slugma",
+      "types": [
+        "fire"
+      ]
+    },
+    "219": {
+      "pokeid": 219,
+      "name": "magcargo",
+      "types": [
+        "fire",
+        "rock"
+      ]
+    },
+    "220": {
+      "pokeid": 220,
+      "name": "swinub",
+      "types": [
+        "ice",
+        "ground"
+      ]
+    },
+    "221": {
+      "pokeid": 221,
+      "name": "piloswine",
+      "types": [
+        "ice",
+        "ground"
+      ]
+    },
+    "222": {
+      "pokeid": 222,
+      "name": "corsola",
+      "types": [
+        "water",
+        "rock"
+      ]
+    },
+    "223": {
+      "pokeid": 223,
+      "name": "remoraid",
+      "types": [
+        "water"
+      ]
+    },
+    "224": {
+      "pokeid": 224,
+      "name": "octillery",
+      "types": [
+        "water"
+      ]
+    },
+    "225": {
+      "pokeid": 225,
+      "name": "delibird",
+      "types": [
+        "ice",
+        "flying"
+      ]
+    },
+    "226": {
+      "pokeid": 226,
+      "name": "mantine",
+      "types": [
+        "water",
+        "flying"
+      ]
+    },
+    "227": {
+      "pokeid": 227,
+      "name": "skarmory",
+      "types": [
+        "steel",
+        "flying"
+      ]
+    },
+    "228": {
+      "pokeid": 228,
+      "name": "houndour",
+      "types": [
+        "dark",
+        "fire"
+      ]
+    },
+    "229": {
+      "pokeid": 229,
+      "name": "houndoom",
+      "types": [
+        "dark",
+        "fire"
+      ]
+    },
+    "230": {
+      "pokeid": 230,
+      "name": "kingdra",
+      "types": [
+        "water",
+        "dragon"
+      ]
+    },
+    "231": {
+      "pokeid": 231,
+      "name": "phanpy",
+      "types": [
+        "ground"
+      ]
+    },
+    "232": {
+      "pokeid": 232,
+      "name": "donphan",
+      "types": [
+        "ground"
+      ]
+    },
+    "233": {
+      "pokeid": 233,
+      "name": "porygon2",
+      "types": [
+        "normal"
+      ]
+    },
+    "234": {
+      "pokeid": 234,
+      "name": "stantler",
+      "types": [
+        "normal"
+      ]
+    },
+    "235": {
+      "pokeid": 235,
+      "name": "smeargle",
+      "types": [
+        "normal"
+      ]
+    },
+    "236": {
+      "pokeid": 236,
+      "name": "tyrogue",
+      "types": [
+        "fighting"
+      ]
+    },
+    "237": {
+      "pokeid": 237,
+      "name": "hitmontop",
+      "types": [
+        "fighting"
+      ]
+    },
+    "238": {
+      "pokeid": 238,
+      "name": "smoochum",
+      "types": [
+        "ice",
+        "psychic"
+      ]
+    },
+    "239": {
+      "pokeid": 239,
+      "name": "elekid",
+      "types": [
+        "electric"
+      ]
+    },
+    "240": {
+      "pokeid": 240,
+      "name": "magby",
+      "types": [
+        "fire"
+      ]
+    },
+    "241": {
+      "pokeid": 241,
+      "name": "miltank",
+      "types": [
+        "normal"
+      ]
+    },
+    "242": {
+      "pokeid": 242,
+      "name": "blissey",
+      "types": [
+        "normal"
+      ]
+    },
+    "243": {
+      "pokeid": 243,
+      "name": "raikou",
+      "types": [
+        "electric"
+      ]
+    },
+    "244": {
+      "pokeid": 244,
+      "name": "entei",
+      "types": [
+        "fire"
+      ]
+    },
+    "245": {
+      "pokeid": 245,
+      "name": "suicune",
+      "types": [
+        "water"
+      ]
+    },
+    "246": {
+      "pokeid": 246,
+      "name": "larvitar",
+      "types": [
+        "rock",
+        "ground"
+      ]
+    },
+    "247": {
+      "pokeid": 247,
+      "name": "pupitar",
+      "types": [
+        "rock",
+        "ground"
+      ]
+    },
+    "248": {
+      "pokeid": 248,
+      "name": "tyranitar",
+      "types": [
+        "rock",
+        "dark"
+      ]
+    },
+    "249": {
+      "pokeid": 249,
+      "name": "lugia",
+      "types": [
+        "psychic",
+        "flying"
+      ]
+    },
+    "250": {
+      "pokeid": 250,
+      "name": "ho-oh",
+      "types": [
+        "fire",
+        "flying"
+      ]
+    },
+    "251": {
+      "pokeid": 251,
+      "name": "celebi",
+      "types": [
+        "psychic",
+        "grass"
+      ]
+    },
+    "252": {
+      "pokeid": 252,
+      "name": "treecko",
+      "types": [
+        "grass"
+      ]
+    },
+    "253": {
+      "pokeid": 253,
+      "name": "grovyle",
+      "types": [
+        "grass"
+      ]
+    },
+    "254": {
+      "pokeid": 254,
+      "name": "sceptile",
+      "types": [
+        "grass"
+      ]
+    },
+    "255": {
+      "pokeid": 255,
+      "name": "torchic",
+      "types": [
+        "fire"
+      ]
+    },
+    "256": {
+      "pokeid": 256,
+      "name": "combusken",
+      "types": [
+        "fire",
+        "fighting"
+      ]
+    },
+    "257": {
+      "pokeid": 257,
+      "name": "blaziken",
+      "types": [
+        "fire",
+        "fighting"
+      ]
+    },
+    "258": {
+      "pokeid": 258,
+      "name": "mudkip",
+      "types": [
+        "water"
+      ]
+    },
+    "259": {
+      "pokeid": 259,
+      "name": "marshtomp",
+      "types": [
+        "water",
+        "ground"
+      ]
+    },
+    "260": {
+      "pokeid": 260,
+      "name": "swampert",
+      "types": [
+        "water",
+        "ground"
+      ]
+    },
+    "261": {
+      "pokeid": 261,
+      "name": "poochyena",
+      "types": [
+        "dark"
+      ]
+    },
+    "262": {
+      "pokeid": 262,
+      "name": "mightyena",
+      "types": [
+        "dark"
+      ]
+    },
+    "263": {
+      "pokeid": 263,
+      "name": "zigzagoon",
+      "types": [
+        "normal"
+      ]
+    },
+    "264": {
+      "pokeid": 264,
+      "name": "linoone",
+      "types": [
+        "normal"
+      ]
+    },
+    "265": {
+      "pokeid": 265,
+      "name": "wurmple",
+      "types": [
+        "bug"
+      ]
+    },
+    "266": {
+      "pokeid": 266,
+      "name": "silcoon",
+      "types": [
+        "bug"
+      ]
+    },
+    "267": {
+      "pokeid": 267,
+      "name": "beautifly",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    "268": {
+      "pokeid": 268,
+      "name": "cascoon",
+      "types": [
+        "bug"
+      ]
+    },
+    "269": {
+      "pokeid": 269,
+      "name": "dustox",
+      "types": [
+        "bug",
+        "poison"
+      ]
+    },
+    "270": {
+      "pokeid": 270,
+      "name": "lotad",
+      "types": [
+        "water",
+        "grass"
+      ]
+    },
+    "271": {
+      "pokeid": 271,
+      "name": "lombre",
+      "types": [
+        "water",
+        "grass"
+      ]
+    },
+    "272": {
+      "pokeid": 272,
+      "name": "ludicolo",
+      "types": [
+        "water",
+        "grass"
+      ]
+    },
+    "273": {
+      "pokeid": 273,
+      "name": "seedot",
+      "types": [
+        "grass"
+      ]
+    },
+    "274": {
+      "pokeid": 274,
+      "name": "nuzleaf",
+      "types": [
+        "grass",
+        "dark"
+      ]
+    },
+    "275": {
+      "pokeid": 275,
+      "name": "shiftry",
+      "types": [
+        "grass",
+        "dark"
+      ]
+    },
+    "276": {
+      "pokeid": 276,
+      "name": "taillow",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    "277": {
+      "pokeid": 277,
+      "name": "swellow",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    "278": {
+      "pokeid": 278,
+      "name": "wingull",
+      "types": [
+        "water",
+        "flying"
+      ]
+    },
+    "279": {
+      "pokeid": 279,
+      "name": "pelipper",
+      "types": [
+        "water",
+        "flying"
+      ]
+    },
+    "280": {
+      "pokeid": 280,
+      "name": "ralts",
+      "types": [
+        "psychic",
+        "fairy"
+      ]
+    },
+    "281": {
+      "pokeid": 281,
+      "name": "kirlia",
+      "types": [
+        "psychic",
+        "fairy"
+      ]
+    },
+    "282": {
+      "pokeid": 282,
+      "name": "gardevoir",
+      "types": [
+        "psychic",
+        "fairy"
+      ]
+    },
+    "283": {
+      "pokeid": 283,
+      "name": "surskit",
+      "types": [
+        "bug",
+        "water"
+      ]
+    },
+    "284": {
+      "pokeid": 284,
+      "name": "masquerain",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    "285": {
+      "pokeid": 285,
+      "name": "shroomish",
+      "types": [
+        "grass"
+      ]
+    },
+    "286": {
+      "pokeid": 286,
+      "name": "breloom",
+      "types": [
+        "grass",
+        "fighting"
+      ]
+    },
+    "287": {
+      "pokeid": 287,
+      "name": "slakoth",
+      "types": [
+        "normal"
+      ]
+    },
+    "288": {
+      "pokeid": 288,
+      "name": "vigoroth",
+      "types": [
+        "normal"
+      ]
+    },
+    "289": {
+      "pokeid": 289,
+      "name": "slaking",
+      "types": [
+        "normal"
+      ]
+    },
+    "290": {
+      "pokeid": 290,
+      "name": "nincada",
+      "types": [
+        "bug",
+        "ground"
+      ]
+    },
+    "291": {
+      "pokeid": 291,
+      "name": "ninjask",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    "292": {
+      "pokeid": 292,
+      "name": "shedinja",
+      "types": [
+        "bug",
+        "ghost"
+      ]
+    },
+    "293": {
+      "pokeid": 293,
+      "name": "whismur",
+      "types": [
+        "normal"
+      ]
+    },
+    "294": {
+      "pokeid": 294,
+      "name": "loudred",
+      "types": [
+        "normal"
+      ]
+    },
+    "295": {
+      "pokeid": 295,
+      "name": "exploud",
+      "types": [
+        "normal"
+      ]
+    },
+    "296": {
+      "pokeid": 296,
+      "name": "makuhita",
+      "types": [
+        "fighting"
+      ]
+    },
+    "297": {
+      "pokeid": 297,
+      "name": "hariyama",
+      "types": [
+        "fighting"
+      ]
+    },
+    "298": {
+      "pokeid": 298,
+      "name": "azurill",
+      "types": [
+        "normal",
+        "fairy"
+      ]
+    },
+    "299": {
+      "pokeid": 299,
+      "name": "nosepass",
+      "types": [
+        "rock"
+      ]
+    },
+    "300": {
+      "pokeid": 300,
+      "name": "skitty",
+      "types": [
+        "normal"
+      ]
+    },
+    "301": {
+      "pokeid": 301,
+      "name": "delcatty",
+      "types": [
+        "normal"
+      ]
+    },
+    "302": {
+      "pokeid": 302,
+      "name": "sableye",
+      "types": [
+        "dark",
+        "ghost"
+      ]
+    },
+    "303": {
+      "pokeid": 303,
+      "name": "mawile",
+      "types": [
+        "steel",
+        "fairy"
+      ]
+    },
+    "304": {
+      "pokeid": 304,
+      "name": "aron",
+      "types": [
+        "steel",
+        "rock"
+      ]
+    },
+    "305": {
+      "pokeid": 305,
+      "name": "lairon",
+      "types": [
+        "steel",
+        "rock"
+      ]
+    },
+    "306": {
+      "pokeid": 306,
+      "name": "aggron",
+      "types": [
+        "steel",
+        "rock"
+      ]
+    },
+    "307": {
+      "pokeid": 307,
+      "name": "meditite",
+      "types": [
+        "fighting",
+        "psychic"
+      ]
+    },
+    "308": {
+      "pokeid": 308,
+      "name": "medicham",
+      "types": [
+        "fighting",
+        "psychic"
+      ]
+    },
+    "309": {
+      "pokeid": 309,
+      "name": "electrike",
+      "types": [
+        "electric"
+      ]
+    },
+    "310": {
+      "pokeid": 310,
+      "name": "manectric",
+      "types": [
+        "electric"
+      ]
+    },
+    "311": {
+      "pokeid": 311,
+      "name": "plusle",
+      "types": [
+        "electric"
+      ]
+    },
+    "312": {
+      "pokeid": 312,
+      "name": "minun",
+      "types": [
+        "electric"
+      ]
+    },
+    "313": {
+      "pokeid": 313,
+      "name": "volbeat",
+      "types": [
+        "bug"
+      ]
+    },
+    "314": {
+      "pokeid": 314,
+      "name": "illumise",
+      "types": [
+        "bug"
+      ]
+    },
+    "315": {
+      "pokeid": 315,
+      "name": "roselia",
+      "types": [
+        "grass",
+        "poison"
+      ]
+    },
+    "316": {
+      "pokeid": 316,
+      "name": "gulpin",
+      "types": [
+        "poison"
+      ]
+    },
+    "317": {
+      "pokeid": 317,
+      "name": "swalot",
+      "types": [
+        "poison"
+      ]
+    },
+    "318": {
+      "pokeid": 318,
+      "name": "carvanha",
+      "types": [
+        "water",
+        "dark"
+      ]
+    },
+    "319": {
+      "pokeid": 319,
+      "name": "sharpedo",
+      "types": [
+        "water",
+        "dark"
+      ]
+    },
+    "320": {
+      "pokeid": 320,
+      "name": "wailmer",
+      "types": [
+        "water"
+      ]
+    },
+    "321": {
+      "pokeid": 321,
+      "name": "wailord",
+      "types": [
+        "water"
+      ]
+    },
+    "322": {
+      "pokeid": 322,
+      "name": "numel",
+      "types": [
+        "fire",
+        "ground"
+      ]
+    },
+    "323": {
+      "pokeid": 323,
+      "name": "camerupt",
+      "types": [
+        "fire",
+        "ground"
+      ]
+    },
+    "324": {
+      "pokeid": 324,
+      "name": "torkoal",
+      "types": [
+        "fire"
+      ]
+    },
+    "325": {
+      "pokeid": 325,
+      "name": "spoink",
+      "types": [
+        "psychic"
+      ]
+    },
+    "326": {
+      "pokeid": 326,
+      "name": "grumpig",
+      "types": [
+        "psychic"
+      ]
+    },
+    "327": {
+      "pokeid": 327,
+      "name": "spinda",
+      "types": [
+        "normal"
+      ]
+    },
+    "328": {
+      "pokeid": 328,
+      "name": "trapinch",
+      "types": [
+        "ground"
+      ]
+    },
+    "329": {
+      "pokeid": 329,
+      "name": "vibrava",
+      "types": [
+        "ground",
+        "dragon"
+      ]
+    },
+    "330": {
+      "pokeid": 330,
+      "name": "flygon",
+      "types": [
+        "ground",
+        "dragon"
+      ]
+    },
+    "331": {
+      "pokeid": 331,
+      "name": "cacnea",
+      "types": [
+        "grass"
+      ]
+    },
+    "332": {
+      "pokeid": 332,
+      "name": "cacturne",
+      "types": [
+        "grass",
+        "dark"
+      ]
+    },
+    "333": {
+      "pokeid": 333,
+      "name": "swablu",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    "334": {
+      "pokeid": 334,
+      "name": "altaria",
+      "types": [
+        "dragon",
+        "flying"
+      ]
+    },
+    "335": {
+      "pokeid": 335,
+      "name": "zangoose",
+      "types": [
+        "normal"
+      ]
+    },
+    "336": {
+      "pokeid": 336,
+      "name": "seviper",
+      "types": [
+        "poison"
+      ]
+    },
+    "337": {
+      "pokeid": 337,
+      "name": "lunatone",
+      "types": [
+        "rock",
+        "psychic"
+      ]
+    },
+    "338": {
+      "pokeid": 338,
+      "name": "solrock",
+      "types": [
+        "rock",
+        "psychic"
+      ]
+    },
+    "339": {
+      "pokeid": 339,
+      "name": "barboach",
+      "types": [
+        "water",
+        "ground"
+      ]
+    },
+    "340": {
+      "pokeid": 340,
+      "name": "whiscash",
+      "types": [
+        "water",
+        "ground"
+      ]
+    },
+    "341": {
+      "pokeid": 341,
+      "name": "corphish",
+      "types": [
+        "water"
+      ]
+    },
+    "342": {
+      "pokeid": 342,
+      "name": "crawdaunt",
+      "types": [
+        "water",
+        "dark"
+      ]
+    },
+    "343": {
+      "pokeid": 343,
+      "name": "baltoy",
+      "types": [
+        "ground",
+        "psychic"
+      ]
+    },
+    "344": {
+      "pokeid": 344,
+      "name": "claydol",
+      "types": [
+        "ground",
+        "psychic"
+      ]
+    },
+    "345": {
+      "pokeid": 345,
+      "name": "lileep",
+      "types": [
+        "rock",
+        "grass"
+      ]
+    },
+    "346": {
+      "pokeid": 346,
+      "name": "cradily",
+      "types": [
+        "rock",
+        "grass"
+      ]
+    },
+    "347": {
+      "pokeid": 347,
+      "name": "anorith",
+      "types": [
+        "rock",
+        "bug"
+      ]
+    },
+    "348": {
+      "pokeid": 348,
+      "name": "armaldo",
+      "types": [
+        "rock",
+        "bug"
+      ]
+    },
+    "349": {
+      "pokeid": 349,
+      "name": "feebas",
+      "types": [
+        "water"
+      ]
+    },
+    "350": {
+      "pokeid": 350,
+      "name": "milotic",
+      "types": [
+        "water"
+      ]
+    },
+    "351": {
+      "pokeid": 351,
+      "name": "castform",
+      "types": [
+        "normal"
+      ]
+    },
+    "352": {
+      "pokeid": 352,
+      "name": "kecleon",
+      "types": [
+        "normal"
+      ]
+    },
+    "353": {
+      "pokeid": 353,
+      "name": "shuppet",
+      "types": [
+        "ghost"
+      ]
+    },
+    "354": {
+      "pokeid": 354,
+      "name": "banette",
+      "types": [
+        "ghost"
+      ]
+    },
+    "355": {
+      "pokeid": 355,
+      "name": "duskull",
+      "types": [
+        "ghost"
+      ]
+    },
+    "356": {
+      "pokeid": 356,
+      "name": "dusclops",
+      "types": [
+        "ghost"
+      ]
+    },
+    "357": {
+      "pokeid": 357,
+      "name": "tropius",
+      "types": [
+        "grass",
+        "flying"
+      ]
+    },
+    "358": {
+      "pokeid": 358,
+      "name": "chimecho",
+      "types": [
+        "psychic"
+      ]
+    },
+    "359": {
+      "pokeid": 359,
+      "name": "absol",
+      "types": [
+        "dark"
+      ]
+    },
+    "360": {
+      "pokeid": 360,
+      "name": "wynaut",
+      "types": [
+        "psychic"
+      ]
+    },
+    "361": {
+      "pokeid": 361,
+      "name": "snorunt",
+      "types": [
+        "ice"
+      ]
+    },
+    "362": {
+      "pokeid": 362,
+      "name": "glalie",
+      "types": [
+        "ice"
+      ]
+    },
+    "363": {
+      "pokeid": 363,
+      "name": "spheal",
+      "types": [
+        "ice",
+        "water"
+      ]
+    },
+    "364": {
+      "pokeid": 364,
+      "name": "sealeo",
+      "types": [
+        "ice",
+        "water"
+      ]
+    },
+    "365": {
+      "pokeid": 365,
+      "name": "walrein",
+      "types": [
+        "ice",
+        "water"
+      ]
+    },
+    "366": {
+      "pokeid": 366,
+      "name": "clamperl",
+      "types": [
+        "water"
+      ]
+    },
+    "367": {
+      "pokeid": 367,
+      "name": "huntail",
+      "types": [
+        "water"
+      ]
+    },
+    "368": {
+      "pokeid": 368,
+      "name": "gorebyss",
+      "types": [
+        "water"
+      ]
+    },
+    "369": {
+      "pokeid": 369,
+      "name": "relicanth",
+      "types": [
+        "water",
+        "rock"
+      ]
+    },
+    "370": {
+      "pokeid": 370,
+      "name": "luvdisc",
+      "types": [
+        "water"
+      ]
+    },
+    "371": {
+      "pokeid": 371,
+      "name": "bagon",
+      "types": [
+        "dragon"
+      ]
+    },
+    "372": {
+      "pokeid": 372,
+      "name": "shelgon",
+      "types": [
+        "dragon"
+      ]
+    },
+    "373": {
+      "pokeid": 373,
+      "name": "salamence",
+      "types": [
+        "dragon",
+        "flying"
+      ]
+    },
+    "374": {
+      "pokeid": 374,
+      "name": "beldum",
+      "types": [
+        "steel",
+        "psychic"
+      ]
+    },
+    "375": {
+      "pokeid": 375,
+      "name": "metang",
+      "types": [
+        "steel",
+        "psychic"
+      ]
+    },
+    "376": {
+      "pokeid": 376,
+      "name": "metagross",
+      "types": [
+        "steel",
+        "psychic"
+      ]
+    },
+    "377": {
+      "pokeid": 377,
+      "name": "regirock",
+      "types": [
+        "rock"
+      ]
+    },
+    "378": {
+      "pokeid": 378,
+      "name": "regice",
+      "types": [
+        "ice"
+      ]
+    },
+    "379": {
+      "pokeid": 379,
+      "name": "registeel",
+      "types": [
+        "steel"
+      ]
+    },
+    "380": {
+      "pokeid": 380,
+      "name": "latias",
+      "types": [
+        "dragon",
+        "psychic"
+      ]
+    },
+    "381": {
+      "pokeid": 381,
+      "name": "latios",
+      "types": [
+        "dragon",
+        "psychic"
+      ]
+    },
+    "382": {
+      "pokeid": 382,
+      "name": "kyogre",
+      "types": [
+        "water"
+      ]
+    },
+    "383": {
+      "pokeid": 383,
+      "name": "groudon",
+      "types": [
+        "ground"
+      ]
+    },
+    "384": {
+      "pokeid": 384,
+      "name": "rayquaza",
+      "types": [
+        "dragon",
+        "flying"
+      ]
+    },
+    "385": {
+      "pokeid": 385,
+      "name": "jirachi",
+      "types": [
+        "steel",
+        "psychic"
+      ]
+    },
+    "386": {
+      "pokeid": 386,
+      "name": "deoxys-normal",
+      "types": [
+        "psychic"
+      ]
+    },
+    "387": {
+      "pokeid": 387,
+      "name": "turtwig",
+      "types": [
+        "grass"
+      ]
+    },
+    "388": {
+      "pokeid": 388,
+      "name": "grotle",
+      "types": [
+        "grass"
+      ]
+    },
+    "389": {
+      "pokeid": 389,
+      "name": "torterra",
+      "types": [
+        "grass",
+        "ground"
+      ]
+    },
+    "390": {
+      "pokeid": 390,
+      "name": "chimchar",
+      "types": [
+        "fire"
+      ]
+    },
+    "391": {
+      "pokeid": 391,
+      "name": "monferno",
+      "types": [
+        "fire",
+        "fighting"
+      ]
+    },
+    "392": {
+      "pokeid": 392,
+      "name": "infernape",
+      "types": [
+        "fire",
+        "fighting"
+      ]
+    },
+    "393": {
+      "pokeid": 393,
+      "name": "piplup",
+      "types": [
+        "water"
+      ]
+    },
+    "394": {
+      "pokeid": 394,
+      "name": "prinplup",
+      "types": [
+        "water"
+      ]
+    },
+    "395": {
+      "pokeid": 395,
+      "name": "empoleon",
+      "types": [
+        "water",
+        "steel"
+      ]
+    },
+    "396": {
+      "pokeid": 396,
+      "name": "starly",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    "397": {
+      "pokeid": 397,
+      "name": "staravia",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    "398": {
+      "pokeid": 398,
+      "name": "staraptor",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    "399": {
+      "pokeid": 399,
+      "name": "bidoof",
+      "types": [
+        "normal"
+      ]
+    },
+    "400": {
+      "pokeid": 400,
+      "name": "bibarel",
+      "types": [
+        "normal",
+        "water"
+      ]
+    },
+    "401": {
+      "pokeid": 401,
+      "name": "kricketot",
+      "types": [
+        "bug"
+      ]
+    },
+    "402": {
+      "pokeid": 402,
+      "name": "kricketune",
+      "types": [
+        "bug"
+      ]
+    },
+    "403": {
+      "pokeid": 403,
+      "name": "shinx",
+      "types": [
+        "electric"
+      ]
+    },
+    "404": {
+      "pokeid": 404,
+      "name": "luxio",
+      "types": [
+        "electric"
+      ]
+    },
+    "405": {
+      "pokeid": 405,
+      "name": "luxray",
+      "types": [
+        "electric"
+      ]
+    },
+    "406": {
+      "pokeid": 406,
+      "name": "budew",
+      "types": [
+        "grass",
+        "poison"
+      ]
+    },
+    "407": {
+      "pokeid": 407,
+      "name": "roserade",
+      "types": [
+        "grass",
+        "poison"
+      ]
+    },
+    "408": {
+      "pokeid": 408,
+      "name": "cranidos",
+      "types": [
+        "rock"
+      ]
+    },
+    "409": {
+      "pokeid": 409,
+      "name": "rampardos",
+      "types": [
+        "rock"
+      ]
+    },
+    "410": {
+      "pokeid": 410,
+      "name": "shieldon",
+      "types": [
+        "rock",
+        "steel"
+      ]
+    },
+    "411": {
+      "pokeid": 411,
+      "name": "bastiodon",
+      "types": [
+        "rock",
+        "steel"
+      ]
+    },
+    "412": {
+      "pokeid": 412,
+      "name": "burmy",
+      "types": [
+        "bug"
+      ]
+    },
+    "413": {
+      "pokeid": 413,
+      "name": "wormadam-plant",
+      "types": [
+        "bug",
+        "grass"
+      ]
+    },
+    "414": {
+      "pokeid": 414,
+      "name": "mothim",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    "415": {
+      "pokeid": 415,
+      "name": "combee",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    "416": {
+      "pokeid": 416,
+      "name": "vespiquen",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    "417": {
+      "pokeid": 417,
+      "name": "pachirisu",
+      "types": [
+        "electric"
+      ]
+    },
+    "418": {
+      "pokeid": 418,
+      "name": "buizel",
+      "types": [
+        "water"
+      ]
+    },
+    "419": {
+      "pokeid": 419,
+      "name": "floatzel",
+      "types": [
+        "water"
+      ]
+    },
+    "420": {
+      "pokeid": 420,
+      "name": "cherubi",
+      "types": [
+        "grass"
+      ]
+    },
+    "421": {
+      "pokeid": 421,
+      "name": "cherrim",
+      "types": [
+        "grass"
+      ]
+    },
+    "422": {
+      "pokeid": 422,
+      "name": "shellos",
+      "types": [
+        "water"
+      ]
+    },
+    "423": {
+      "pokeid": 423,
+      "name": "gastrodon",
+      "types": [
+        "water",
+        "ground"
+      ]
+    },
+    "424": {
+      "pokeid": 424,
+      "name": "ambipom",
+      "types": [
+        "normal"
+      ]
+    },
+    "425": {
+      "pokeid": 425,
+      "name": "drifloon",
+      "types": [
+        "ghost",
+        "flying"
+      ]
+    },
+    "426": {
+      "pokeid": 426,
+      "name": "drifblim",
+      "types": [
+        "ghost",
+        "flying"
+      ]
+    },
+    "427": {
+      "pokeid": 427,
+      "name": "buneary",
+      "types": [
+        "normal"
+      ]
+    },
+    "428": {
+      "pokeid": 428,
+      "name": "lopunny",
+      "types": [
+        "normal"
+      ]
+    },
+    "429": {
+      "pokeid": 429,
+      "name": "mismagius",
+      "types": [
+        "ghost"
+      ]
+    },
+    "430": {
+      "pokeid": 430,
+      "name": "honchkrow",
+      "types": [
+        "dark",
+        "flying"
+      ]
+    },
+    "431": {
+      "pokeid": 431,
+      "name": "glameow",
+      "types": [
+        "normal"
+      ]
+    },
+    "432": {
+      "pokeid": 432,
+      "name": "purugly",
+      "types": [
+        "normal"
+      ]
+    },
+    "433": {
+      "pokeid": 433,
+      "name": "chingling",
+      "types": [
+        "psychic"
+      ]
+    },
+    "434": {
+      "pokeid": 434,
+      "name": "stunky",
+      "types": [
+        "poison",
+        "dark"
+      ]
+    },
+    "435": {
+      "pokeid": 435,
+      "name": "skuntank",
+      "types": [
+        "poison",
+        "dark"
+      ]
+    },
+    "436": {
+      "pokeid": 436,
+      "name": "bronzor",
+      "types": [
+        "steel",
+        "psychic"
+      ]
+    },
+    "437": {
+      "pokeid": 437,
+      "name": "bronzong",
+      "types": [
+        "steel",
+        "psychic"
+      ]
+    },
+    "438": {
+      "pokeid": 438,
+      "name": "bonsly",
+      "types": [
+        "rock"
+      ]
+    },
+    "439": {
+      "pokeid": 439,
+      "name": "mime-jr",
+      "types": [
+        "psychic",
+        "fairy"
+      ]
+    },
+    "440": {
+      "pokeid": 440,
+      "name": "happiny",
+      "types": [
+        "normal"
+      ]
+    },
+    "441": {
+      "pokeid": 441,
+      "name": "chatot",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    "442": {
+      "pokeid": 442,
+      "name": "spiritomb",
+      "types": [
+        "ghost",
+        "dark"
+      ]
+    },
+    "443": {
+      "pokeid": 443,
+      "name": "gible",
+      "types": [
+        "dragon",
+        "ground"
+      ]
+    },
+    "444": {
+      "pokeid": 444,
+      "name": "gabite",
+      "types": [
+        "dragon",
+        "ground"
+      ]
+    },
+    "445": {
+      "pokeid": 445,
+      "name": "garchomp",
+      "types": [
+        "dragon",
+        "ground"
+      ]
+    },
+    "446": {
+      "pokeid": 446,
+      "name": "munchlax",
+      "types": [
+        "normal"
+      ]
+    },
+    "447": {
+      "pokeid": 447,
+      "name": "riolu",
+      "types": [
+        "fighting"
+      ]
+    },
+    "448": {
+      "pokeid": 448,
+      "name": "lucario",
+      "types": [
+        "fighting",
+        "steel"
+      ]
+    },
+    "449": {
+      "pokeid": 449,
+      "name": "hippopotas",
+      "types": [
+        "ground"
+      ]
+    },
+    "450": {
+      "pokeid": 450,
+      "name": "hippowdon",
+      "types": [
+        "ground"
+      ]
+    },
+    "451": {
+      "pokeid": 451,
+      "name": "skorupi",
+      "types": [
+        "poison",
+        "bug"
+      ]
+    },
+    "452": {
+      "pokeid": 452,
+      "name": "drapion",
+      "types": [
+        "poison",
+        "dark"
+      ]
+    },
+    "453": {
+      "pokeid": 453,
+      "name": "croagunk",
+      "types": [
+        "poison",
+        "fighting"
+      ]
+    },
+    "454": {
+      "pokeid": 454,
+      "name": "toxicroak",
+      "types": [
+        "poison",
+        "fighting"
+      ]
+    },
+    "455": {
+      "pokeid": 455,
+      "name": "carnivine",
+      "types": [
+        "grass"
+      ]
+    },
+    "456": {
+      "pokeid": 456,
+      "name": "finneon",
+      "types": [
+        "water"
+      ]
+    },
+    "457": {
+      "pokeid": 457,
+      "name": "lumineon",
+      "types": [
+        "water"
+      ]
+    },
+    "458": {
+      "pokeid": 458,
+      "name": "mantyke",
+      "types": [
+        "water",
+        "flying"
+      ]
+    },
+    "459": {
+      "pokeid": 459,
+      "name": "snover",
+      "types": [
+        "grass",
+        "ice"
+      ]
+    },
+    "460": {
+      "pokeid": 460,
+      "name": "abomasnow",
+      "types": [
+        "grass",
+        "ice"
+      ]
+    },
+    "461": {
+      "pokeid": 461,
+      "name": "weavile",
+      "types": [
+        "dark",
+        "ice"
+      ]
+    },
+    "462": {
+      "pokeid": 462,
+      "name": "magnezone",
+      "types": [
+        "electric",
+        "steel"
+      ]
+    },
+    "463": {
+      "pokeid": 463,
+      "name": "lickilicky",
+      "types": [
+        "normal"
+      ]
+    },
+    "464": {
+      "pokeid": 464,
+      "name": "rhyperior",
+      "types": [
+        "ground",
+        "rock"
+      ]
+    },
+    "465": {
+      "pokeid": 465,
+      "name": "tangrowth",
+      "types": [
+        "grass"
+      ]
+    },
+    "466": {
+      "pokeid": 466,
+      "name": "electivire",
+      "types": [
+        "electric"
+      ]
+    },
+    "467": {
+      "pokeid": 467,
+      "name": "magmortar",
+      "types": [
+        "fire"
+      ]
+    },
+    "468": {
+      "pokeid": 468,
+      "name": "togekiss",
+      "types": [
+        "fairy",
+        "flying"
+      ]
+    },
+    "469": {
+      "pokeid": 469,
+      "name": "yanmega",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    "470": {
+      "pokeid": 470,
+      "name": "leafeon",
+      "types": [
+        "grass"
+      ]
+    },
+    "471": {
+      "pokeid": 471,
+      "name": "glaceon",
+      "types": [
+        "ice"
+      ]
+    },
+    "472": {
+      "pokeid": 472,
+      "name": "gliscor",
+      "types": [
+        "ground",
+        "flying"
+      ]
+    },
+    "473": {
+      "pokeid": 473,
+      "name": "mamoswine",
+      "types": [
+        "ice",
+        "ground"
+      ]
+    },
+    "474": {
+      "pokeid": 474,
+      "name": "porygon-z",
+      "types": [
+        "normal"
+      ]
+    },
+    "475": {
+      "pokeid": 475,
+      "name": "gallade",
+      "types": [
+        "psychic",
+        "fighting"
+      ]
+    },
+    "476": {
+      "pokeid": 476,
+      "name": "probopass",
+      "types": [
+        "rock",
+        "steel"
+      ]
+    },
+    "477": {
+      "pokeid": 477,
+      "name": "dusknoir",
+      "types": [
+        "ghost"
+      ]
+    },
+    "478": {
+      "pokeid": 478,
+      "name": "froslass",
+      "types": [
+        "ice",
+        "ghost"
+      ]
+    },
+    "479": {
+      "pokeid": 479,
+      "name": "rotom",
+      "types": [
+        "electric",
+        "ghost"
+      ]
+    },
+    "480": {
+      "pokeid": 480,
+      "name": "uxie",
+      "types": [
+        "psychic"
+      ]
+    },
+    "481": {
+      "pokeid": 481,
+      "name": "mesprit",
+      "types": [
+        "psychic"
+      ]
+    },
+    "482": {
+      "pokeid": 482,
+      "name": "azelf",
+      "types": [
+        "psychic"
+      ]
+    },
+    "483": {
+      "pokeid": 483,
+      "name": "dialga",
+      "types": [
+        "steel",
+        "dragon"
+      ]
+    },
+    "484": {
+      "pokeid": 484,
+      "name": "palkia",
+      "types": [
+        "water",
+        "dragon"
+      ]
+    },
+    "485": {
+      "pokeid": 485,
+      "name": "heatran",
+      "types": [
+        "fire",
+        "steel"
+      ]
+    },
+    "486": {
+      "pokeid": 486,
+      "name": "regigigas",
+      "types": [
+        "normal"
+      ]
+    },
+    "487": {
+      "pokeid": 487,
+      "name": "giratina-altered",
+      "types": [
+        "ghost",
+        "dragon"
+      ]
+    },
+    "488": {
+      "pokeid": 488,
+      "name": "cresselia",
+      "types": [
+        "psychic"
+      ]
+    },
+    "489": {
+      "pokeid": 489,
+      "name": "phione",
+      "types": [
+        "water"
+      ]
+    },
+    "490": {
+      "pokeid": 490,
+      "name": "manaphy",
+      "types": [
+        "water"
+      ]
+    },
+    "491": {
+      "pokeid": 491,
+      "name": "darkrai",
+      "types": [
+        "dark"
+      ]
+    },
+    "492": {
+      "pokeid": 492,
+      "name": "shaymin-land",
+      "types": [
+        "grass"
+      ]
+    },
+    "493": {
+      "pokeid": 493,
+      "name": "arceus",
+      "types": [
+        "normal"
+      ]
+    },
+    "494": {
+      "pokeid": 494,
+      "name": "victini",
+      "types": [
+        "psychic",
+        "fire"
+      ]
+    },
+    "495": {
+      "pokeid": 495,
+      "name": "snivy",
+      "types": [
+        "grass"
+      ]
+    },
+    "496": {
+      "pokeid": 496,
+      "name": "servine",
+      "types": [
+        "grass"
+      ]
+    },
+    "497": {
+      "pokeid": 497,
+      "name": "serperior",
+      "types": [
+        "grass"
+      ]
+    },
+    "498": {
+      "pokeid": 498,
+      "name": "tepig",
+      "types": [
+        "fire"
+      ]
+    },
+    "499": {
+      "pokeid": 499,
+      "name": "pignite",
+      "types": [
+        "fire",
+        "fighting"
+      ]
+    },
+    "500": {
+      "pokeid": 500,
+      "name": "emboar",
+      "types": [
+        "fire",
+        "fighting"
+      ]
+    },
+    "501": {
+      "pokeid": 501,
+      "name": "oshawott",
+      "types": [
+        "water"
+      ]
+    },
+    "502": {
+      "pokeid": 502,
+      "name": "dewott",
+      "types": [
+        "water"
+      ]
+    },
+    "503": {
+      "pokeid": 503,
+      "name": "samurott",
+      "types": [
+        "water"
+      ]
+    },
+    "504": {
+      "pokeid": 504,
+      "name": "patrat",
+      "types": [
+        "normal"
+      ]
+    },
+    "505": {
+      "pokeid": 505,
+      "name": "watchog",
+      "types": [
+        "normal"
+      ]
+    },
+    "506": {
+      "pokeid": 506,
+      "name": "lillipup",
+      "types": [
+        "normal"
+      ]
+    },
+    "507": {
+      "pokeid": 507,
+      "name": "herdier",
+      "types": [
+        "normal"
+      ]
+    },
+    "508": {
+      "pokeid": 508,
+      "name": "stoutland",
+      "types": [
+        "normal"
+      ]
+    },
+    "509": {
+      "pokeid": 509,
+      "name": "purrloin",
+      "types": [
+        "dark"
+      ]
+    },
+    "510": {
+      "pokeid": 510,
+      "name": "liepard",
+      "types": [
+        "dark"
+      ]
+    },
+    "511": {
+      "pokeid": 511,
+      "name": "pansage",
+      "types": [
+        "grass"
+      ]
+    },
+    "512": {
+      "pokeid": 512,
+      "name": "simisage",
+      "types": [
+        "grass"
+      ]
+    },
+    "513": {
+      "pokeid": 513,
+      "name": "pansear",
+      "types": [
+        "fire"
+      ]
+    },
+    "514": {
+      "pokeid": 514,
+      "name": "simisear",
+      "types": [
+        "fire"
+      ]
+    },
+    "515": {
+      "pokeid": 515,
+      "name": "panpour",
+      "types": [
+        "water"
+      ]
+    },
+    "516": {
+      "pokeid": 516,
+      "name": "simipour",
+      "types": [
+        "water"
+      ]
+    },
+    "517": {
+      "pokeid": 517,
+      "name": "munna",
+      "types": [
+        "psychic"
+      ]
+    },
+    "518": {
+      "pokeid": 518,
+      "name": "musharna",
+      "types": [
+        "psychic"
+      ]
+    },
+    "519": {
+      "pokeid": 519,
+      "name": "pidove",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    "520": {
+      "pokeid": 520,
+      "name": "tranquill",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    "521": {
+      "pokeid": 521,
+      "name": "unfezant",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    "522": {
+      "pokeid": 522,
+      "name": "blitzle",
+      "types": [
+        "electric"
+      ]
+    },
+    "523": {
+      "pokeid": 523,
+      "name": "zebstrika",
+      "types": [
+        "electric"
+      ]
+    },
+    "524": {
+      "pokeid": 524,
+      "name": "roggenrola",
+      "types": [
+        "rock"
+      ]
+    },
+    "525": {
+      "pokeid": 525,
+      "name": "boldore",
+      "types": [
+        "rock"
+      ]
+    },
+    "526": {
+      "pokeid": 526,
+      "name": "gigalith",
+      "types": [
+        "rock"
+      ]
+    },
+    "527": {
+      "pokeid": 527,
+      "name": "woobat",
+      "types": [
+        "psychic",
+        "flying"
+      ]
+    },
+    "528": {
+      "pokeid": 528,
+      "name": "swoobat",
+      "types": [
+        "psychic",
+        "flying"
+      ]
+    },
+    "529": {
+      "pokeid": 529,
+      "name": "drilbur",
+      "types": [
+        "ground"
+      ]
+    },
+    "530": {
+      "pokeid": 530,
+      "name": "excadrill",
+      "types": [
+        "ground",
+        "steel"
+      ]
+    },
+    "531": {
+      "pokeid": 531,
+      "name": "audino",
+      "types": [
+        "normal"
+      ]
+    },
+    "532": {
+      "pokeid": 532,
+      "name": "timburr",
+      "types": [
+        "fighting"
+      ]
+    },
+    "533": {
+      "pokeid": 533,
+      "name": "gurdurr",
+      "types": [
+        "fighting"
+      ]
+    },
+    "534": {
+      "pokeid": 534,
+      "name": "conkeldurr",
+      "types": [
+        "fighting"
+      ]
+    },
+    "535": {
+      "pokeid": 535,
+      "name": "tympole",
+      "types": [
+        "water"
+      ]
+    },
+    "536": {
+      "pokeid": 536,
+      "name": "palpitoad",
+      "types": [
+        "water",
+        "ground"
+      ]
+    },
+    "537": {
+      "pokeid": 537,
+      "name": "seismitoad",
+      "types": [
+        "water",
+        "ground"
+      ]
+    },
+    "538": {
+      "pokeid": 538,
+      "name": "throh",
+      "types": [
+        "fighting"
+      ]
+    },
+    "539": {
+      "pokeid": 539,
+      "name": "sawk",
+      "types": [
+        "fighting"
+      ]
+    },
+    "540": {
+      "pokeid": 540,
+      "name": "sewaddle",
+      "types": [
+        "bug",
+        "grass"
+      ]
+    },
+    "541": {
+      "pokeid": 541,
+      "name": "swadloon",
+      "types": [
+        "bug",
+        "grass"
+      ]
+    },
+    "542": {
+      "pokeid": 542,
+      "name": "leavanny",
+      "types": [
+        "bug",
+        "grass"
+      ]
+    },
+    "543": {
+      "pokeid": 543,
+      "name": "venipede",
+      "types": [
+        "bug",
+        "poison"
+      ]
+    },
+    "544": {
+      "pokeid": 544,
+      "name": "whirlipede",
+      "types": [
+        "bug",
+        "poison"
+      ]
+    },
+    "545": {
+      "pokeid": 545,
+      "name": "scolipede",
+      "types": [
+        "bug",
+        "poison"
+      ]
+    },
+    "546": {
+      "pokeid": 546,
+      "name": "cottonee",
+      "types": [
+        "grass",
+        "fairy"
+      ]
+    },
+    "547": {
+      "pokeid": 547,
+      "name": "whimsicott",
+      "types": [
+        "grass",
+        "fairy"
+      ]
+    },
+    "548": {
+      "pokeid": 548,
+      "name": "petilil",
+      "types": [
+        "grass"
+      ]
+    },
+    "549": {
+      "pokeid": 549,
+      "name": "lilligant",
+      "types": [
+        "grass"
+      ]
+    },
+    "550": {
+      "pokeid": 550,
+      "name": "basculin-red-striped",
+      "types": [
+        "water"
+      ]
+    },
+    "551": {
+      "pokeid": 551,
+      "name": "sandile",
+      "types": [
+        "ground",
+        "dark"
+      ]
+    },
+    "552": {
+      "pokeid": 552,
+      "name": "krokorok",
+      "types": [
+        "ground",
+        "dark"
+      ]
+    },
+    "553": {
+      "pokeid": 553,
+      "name": "krookodile",
+      "types": [
+        "ground",
+        "dark"
+      ]
+    },
+    "554": {
+      "pokeid": 554,
+      "name": "darumaka",
+      "types": [
+        "fire"
+      ]
+    },
+    "555": {
+      "pokeid": 555,
+      "name": "darmanitan-standard",
+      "types": [
+        "fire"
+      ]
+    },
+    "556": {
+      "pokeid": 556,
+      "name": "maractus",
+      "types": [
+        "grass"
+      ]
+    },
+    "557": {
+      "pokeid": 557,
+      "name": "dwebble",
+      "types": [
+        "bug",
+        "rock"
+      ]
+    },
+    "558": {
+      "pokeid": 558,
+      "name": "crustle",
+      "types": [
+        "bug",
+        "rock"
+      ]
+    },
+    "559": {
+      "pokeid": 559,
+      "name": "scraggy",
+      "types": [
+        "dark",
+        "fighting"
+      ]
+    },
+    "560": {
+      "pokeid": 560,
+      "name": "scrafty",
+      "types": [
+        "dark",
+        "fighting"
+      ]
+    },
+    "561": {
+      "pokeid": 561,
+      "name": "sigilyph",
+      "types": [
+        "psychic",
+        "flying"
+      ]
+    },
+    "562": {
+      "pokeid": 562,
+      "name": "yamask",
+      "types": [
+        "ghost"
+      ]
+    },
+    "563": {
+      "pokeid": 563,
+      "name": "cofagrigus",
+      "types": [
+        "ghost"
+      ]
+    },
+    "564": {
+      "pokeid": 564,
+      "name": "tirtouga",
+      "types": [
+        "water",
+        "rock"
+      ]
+    },
+    "565": {
+      "pokeid": 565,
+      "name": "carracosta",
+      "types": [
+        "water",
+        "rock"
+      ]
+    },
+    "566": {
+      "pokeid": 566,
+      "name": "archen",
+      "types": [
+        "rock",
+        "flying"
+      ]
+    },
+    "567": {
+      "pokeid": 567,
+      "name": "archeops",
+      "types": [
+        "rock",
+        "flying"
+      ]
+    },
+    "568": {
+      "pokeid": 568,
+      "name": "trubbish",
+      "types": [
+        "poison"
+      ]
+    },
+    "569": {
+      "pokeid": 569,
+      "name": "garbodor",
+      "types": [
+        "poison"
+      ]
+    },
+    "570": {
+      "pokeid": 570,
+      "name": "zorua",
+      "types": [
+        "dark"
+      ]
+    },
+    "571": {
+      "pokeid": 571,
+      "name": "zoroark",
+      "types": [
+        "dark"
+      ]
+    },
+    "572": {
+      "pokeid": 572,
+      "name": "minccino",
+      "types": [
+        "normal"
+      ]
+    },
+    "573": {
+      "pokeid": 573,
+      "name": "cinccino",
+      "types": [
+        "normal"
+      ]
+    },
+    "574": {
+      "pokeid": 574,
+      "name": "gothita",
+      "types": [
+        "psychic"
+      ]
+    },
+    "575": {
+      "pokeid": 575,
+      "name": "gothorita",
+      "types": [
+        "psychic"
+      ]
+    },
+    "576": {
+      "pokeid": 576,
+      "name": "gothitelle",
+      "types": [
+        "psychic"
+      ]
+    },
+    "577": {
+      "pokeid": 577,
+      "name": "solosis",
+      "types": [
+        "psychic"
+      ]
+    },
+    "578": {
+      "pokeid": 578,
+      "name": "duosion",
+      "types": [
+        "psychic"
+      ]
+    },
+    "579": {
+      "pokeid": 579,
+      "name": "reuniclus",
+      "types": [
+        "psychic"
+      ]
+    },
+    "580": {
+      "pokeid": 580,
+      "name": "ducklett",
+      "types": [
+        "water",
+        "flying"
+      ]
+    },
+    "581": {
+      "pokeid": 581,
+      "name": "swanna",
+      "types": [
+        "water",
+        "flying"
+      ]
+    },
+    "582": {
+      "pokeid": 582,
+      "name": "vanillite",
+      "types": [
+        "ice"
+      ]
+    },
+    "583": {
+      "pokeid": 583,
+      "name": "vanillish",
+      "types": [
+        "ice"
+      ]
+    },
+    "584": {
+      "pokeid": 584,
+      "name": "vanilluxe",
+      "types": [
+        "ice"
+      ]
+    },
+    "585": {
+      "pokeid": 585,
+      "name": "deerling",
+      "types": [
+        "normal",
+        "grass"
+      ]
+    },
+    "586": {
+      "pokeid": 586,
+      "name": "sawsbuck",
+      "types": [
+        "normal",
+        "grass"
+      ]
+    },
+    "587": {
+      "pokeid": 587,
+      "name": "emolga",
+      "types": [
+        "electric",
+        "flying"
+      ]
+    },
+    "588": {
+      "pokeid": 588,
+      "name": "karrablast",
+      "types": [
+        "bug"
+      ]
+    },
+    "589": {
+      "pokeid": 589,
+      "name": "escavalier",
+      "types": [
+        "bug",
+        "steel"
+      ]
+    },
+    "590": {
+      "pokeid": 590,
+      "name": "foongus",
+      "types": [
+        "grass",
+        "poison"
+      ]
+    },
+    "591": {
+      "pokeid": 591,
+      "name": "amoonguss",
+      "types": [
+        "grass",
+        "poison"
+      ]
+    },
+    "592": {
+      "pokeid": 592,
+      "name": "frillish",
+      "types": [
+        "water",
+        "ghost"
+      ]
+    },
+    "593": {
+      "pokeid": 593,
+      "name": "jellicent",
+      "types": [
+        "water",
+        "ghost"
+      ]
+    },
+    "594": {
+      "pokeid": 594,
+      "name": "alomomola",
+      "types": [
+        "water"
+      ]
+    },
+    "595": {
+      "pokeid": 595,
+      "name": "joltik",
+      "types": [
+        "bug",
+        "electric"
+      ]
+    },
+    "596": {
+      "pokeid": 596,
+      "name": "galvantula",
+      "types": [
+        "bug",
+        "electric"
+      ]
+    },
+    "597": {
+      "pokeid": 597,
+      "name": "ferroseed",
+      "types": [
+        "grass",
+        "steel"
+      ]
+    },
+    "598": {
+      "pokeid": 598,
+      "name": "ferrothorn",
+      "types": [
+        "grass",
+        "steel"
+      ]
+    },
+    "599": {
+      "pokeid": 599,
+      "name": "klink",
+      "types": [
+        "steel"
+      ]
+    },
+    "600": {
+      "pokeid": 600,
+      "name": "klang",
+      "types": [
+        "steel"
+      ]
+    },
+    "601": {
+      "pokeid": 601,
+      "name": "klinklang",
+      "types": [
+        "steel"
+      ]
+    },
+    "602": {
+      "pokeid": 602,
+      "name": "tynamo",
+      "types": [
+        "electric"
+      ]
+    },
+    "603": {
+      "pokeid": 603,
+      "name": "eelektrik",
+      "types": [
+        "electric"
+      ]
+    },
+    "604": {
+      "pokeid": 604,
+      "name": "eelektross",
+      "types": [
+        "electric"
+      ]
+    },
+    "605": {
+      "pokeid": 605,
+      "name": "elgyem",
+      "types": [
+        "psychic"
+      ]
+    },
+    "606": {
+      "pokeid": 606,
+      "name": "beheeyem",
+      "types": [
+        "psychic"
+      ]
+    },
+    "607": {
+      "pokeid": 607,
+      "name": "litwick",
+      "types": [
+        "ghost",
+        "fire"
+      ]
+    },
+    "608": {
+      "pokeid": 608,
+      "name": "lampent",
+      "types": [
+        "ghost",
+        "fire"
+      ]
+    },
+    "609": {
+      "pokeid": 609,
+      "name": "chandelure",
+      "types": [
+        "ghost",
+        "fire"
+      ]
+    },
+    "610": {
+      "pokeid": 610,
+      "name": "axew",
+      "types": [
+        "dragon"
+      ]
+    },
+    "611": {
+      "pokeid": 611,
+      "name": "fraxure",
+      "types": [
+        "dragon"
+      ]
+    },
+    "612": {
+      "pokeid": 612,
+      "name": "haxorus",
+      "types": [
+        "dragon"
+      ]
+    },
+    "613": {
+      "pokeid": 613,
+      "name": "cubchoo",
+      "types": [
+        "ice"
+      ]
+    },
+    "614": {
+      "pokeid": 614,
+      "name": "beartic",
+      "types": [
+        "ice"
+      ]
+    },
+    "615": {
+      "pokeid": 615,
+      "name": "cryogonal",
+      "types": [
+        "ice"
+      ]
+    },
+    "616": {
+      "pokeid": 616,
+      "name": "shelmet",
+      "types": [
+        "bug"
+      ]
+    },
+    "617": {
+      "pokeid": 617,
+      "name": "accelgor",
+      "types": [
+        "bug"
+      ]
+    },
+    "618": {
+      "pokeid": 618,
+      "name": "stunfisk",
+      "types": [
+        "ground",
+        "electric"
+      ]
+    },
+    "619": {
+      "pokeid": 619,
+      "name": "mienfoo",
+      "types": [
+        "fighting"
+      ]
+    },
+    "620": {
+      "pokeid": 620,
+      "name": "mienshao",
+      "types": [
+        "fighting"
+      ]
+    },
+    "621": {
+      "pokeid": 621,
+      "name": "druddigon",
+      "types": [
+        "dragon"
+      ]
+    },
+    "622": {
+      "pokeid": 622,
+      "name": "golett",
+      "types": [
+        "ground",
+        "ghost"
+      ]
+    },
+    "623": {
+      "pokeid": 623,
+      "name": "golurk",
+      "types": [
+        "ground",
+        "ghost"
+      ]
+    },
+    "624": {
+      "pokeid": 624,
+      "name": "pawniard",
+      "types": [
+        "dark",
+        "steel"
+      ]
+    },
+    "625": {
+      "pokeid": 625,
+      "name": "bisharp",
+      "types": [
+        "dark",
+        "steel"
+      ]
+    },
+    "626": {
+      "pokeid": 626,
+      "name": "bouffalant",
+      "types": [
+        "normal"
+      ]
+    },
+    "627": {
+      "pokeid": 627,
+      "name": "rufflet",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    "628": {
+      "pokeid": 628,
+      "name": "braviary",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    "629": {
+      "pokeid": 629,
+      "name": "vullaby",
+      "types": [
+        "dark",
+        "flying"
+      ]
+    },
+    "630": {
+      "pokeid": 630,
+      "name": "mandibuzz",
+      "types": [
+        "dark",
+        "flying"
+      ]
+    },
+    "631": {
+      "pokeid": 631,
+      "name": "heatmor",
+      "types": [
+        "fire"
+      ]
+    },
+    "632": {
+      "pokeid": 632,
+      "name": "durant",
+      "types": [
+        "bug",
+        "steel"
+      ]
+    },
+    "633": {
+      "pokeid": 633,
+      "name": "deino",
+      "types": [
+        "dark",
+        "dragon"
+      ]
+    },
+    "634": {
+      "pokeid": 634,
+      "name": "zweilous",
+      "types": [
+        "dark",
+        "dragon"
+      ]
+    },
+    "635": {
+      "pokeid": 635,
+      "name": "hydreigon",
+      "types": [
+        "dark",
+        "dragon"
+      ]
+    },
+    "636": {
+      "pokeid": 636,
+      "name": "larvesta",
+      "types": [
+        "bug",
+        "fire"
+      ]
+    },
+    "637": {
+      "pokeid": 637,
+      "name": "volcarona",
+      "types": [
+        "bug",
+        "fire"
+      ]
+    },
+    "638": {
+      "pokeid": 638,
+      "name": "cobalion",
+      "types": [
+        "steel",
+        "fighting"
+      ]
+    },
+    "639": {
+      "pokeid": 639,
+      "name": "terrakion",
+      "types": [
+        "rock",
+        "fighting"
+      ]
+    },
+    "640": {
+      "pokeid": 640,
+      "name": "virizion",
+      "types": [
+        "grass",
+        "fighting"
+      ]
+    },
+    "641": {
+      "pokeid": 641,
+      "name": "tornadus-incarnate",
+      "types": [
+        "flying"
+      ]
+    },
+    "642": {
+      "pokeid": 642,
+      "name": "thundurus-incarnate",
+      "types": [
+        "electric",
+        "flying"
+      ]
+    },
+    "643": {
+      "pokeid": 643,
+      "name": "reshiram",
+      "types": [
+        "dragon",
+        "fire"
+      ]
+    },
+    "644": {
+      "pokeid": 644,
+      "name": "zekrom",
+      "types": [
+        "dragon",
+        "electric"
+      ]
+    },
+    "645": {
+      "pokeid": 645,
+      "name": "landorus-incarnate",
+      "types": [
+        "ground",
+        "flying"
+      ]
+    },
+    "646": {
+      "pokeid": 646,
+      "name": "kyurem",
+      "types": [
+        "dragon",
+        "ice"
+      ]
+    },
+    "647": {
+      "pokeid": 647,
+      "name": "keldeo-ordinary",
+      "types": [
+        "water",
+        "fighting"
+      ]
+    },
+    "648": {
+      "pokeid": 648,
+      "name": "meloetta-aria",
+      "types": [
+        "normal",
+        "psychic"
+      ]
+    },
+    "649": {
+      "pokeid": 649,
+      "name": "genesect",
+      "types": [
+        "bug",
+        "steel"
+      ]
+    },
+    "650": {
+      "pokeid": 650,
+      "name": "chespin",
+      "types": [
+        "grass"
+      ]
+    },
+    "651": {
+      "pokeid": 651,
+      "name": "quilladin",
+      "types": [
+        "grass"
+      ]
+    },
+    "652": {
+      "pokeid": 652,
+      "name": "chesnaught",
+      "types": [
+        "grass",
+        "fighting"
+      ]
+    },
+    "653": {
+      "pokeid": 653,
+      "name": "fennekin",
+      "types": [
+        "fire"
+      ]
+    },
+    "654": {
+      "pokeid": 654,
+      "name": "braixen",
+      "types": [
+        "fire"
+      ]
+    },
+    "655": {
+      "pokeid": 655,
+      "name": "delphox",
+      "types": [
+        "fire",
+        "psychic"
+      ]
+    },
+    "656": {
+      "pokeid": 656,
+      "name": "froakie",
+      "types": [
+        "water"
+      ]
+    },
+    "657": {
+      "pokeid": 657,
+      "name": "frogadier",
+      "types": [
+        "water"
+      ]
+    },
+    "658": {
+      "pokeid": 658,
+      "name": "greninja",
+      "types": [
+        "water",
+        "dark"
+      ]
+    },
+    "659": {
+      "pokeid": 659,
+      "name": "bunnelby",
+      "types": [
+        "normal"
+      ]
+    },
+    "660": {
+      "pokeid": 660,
+      "name": "diggersby",
+      "types": [
+        "normal",
+        "ground"
+      ]
+    },
+    "661": {
+      "pokeid": 661,
+      "name": "fletchling",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    "662": {
+      "pokeid": 662,
+      "name": "fletchinder",
+      "types": [
+        "fire",
+        "flying"
+      ]
+    },
+    "663": {
+      "pokeid": 663,
+      "name": "talonflame",
+      "types": [
+        "fire",
+        "flying"
+      ]
+    },
+    "664": {
+      "pokeid": 664,
+      "name": "scatterbug",
+      "types": [
+        "bug"
+      ]
+    },
+    "665": {
+      "pokeid": 665,
+      "name": "spewpa",
+      "types": [
+        "bug"
+      ]
+    },
+    "666": {
+      "pokeid": 666,
+      "name": "vivillon",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    "667": {
+      "pokeid": 667,
+      "name": "litleo",
+      "types": [
+        "fire",
+        "normal"
+      ]
+    },
+    "668": {
+      "pokeid": 668,
+      "name": "pyroar",
+      "types": [
+        "fire",
+        "normal"
+      ]
+    },
+    "669": {
+      "pokeid": 669,
+      "name": "flabebe",
+      "types": [
+        "fairy"
+      ]
+    },
+    "670": {
+      "pokeid": 670,
+      "name": "floette",
+      "types": [
+        "fairy"
+      ]
+    },
+    "671": {
+      "pokeid": 671,
+      "name": "florges",
+      "types": [
+        "fairy"
+      ]
+    },
+    "672": {
+      "pokeid": 672,
+      "name": "skiddo",
+      "types": [
+        "grass"
+      ]
+    },
+    "673": {
+      "pokeid": 673,
+      "name": "gogoat",
+      "types": [
+        "grass"
+      ]
+    },
+    "674": {
+      "pokeid": 674,
+      "name": "pancham",
+      "types": [
+        "fighting"
+      ]
+    },
+    "675": {
+      "pokeid": 675,
+      "name": "pangoro",
+      "types": [
+        "fighting",
+        "dark"
+      ]
+    },
+    "676": {
+      "pokeid": 676,
+      "name": "furfrou",
+      "types": [
+        "normal"
+      ]
+    },
+    "677": {
+      "pokeid": 677,
+      "name": "espurr",
+      "types": [
+        "psychic"
+      ]
+    },
+    "678": {
+      "pokeid": 678,
+      "name": "meowstic-male",
+      "types": [
+        "psychic"
+      ]
+    },
+    "679": {
+      "pokeid": 679,
+      "name": "honedge",
+      "types": [
+        "steel",
+        "ghost"
+      ]
+    },
+    "680": {
+      "pokeid": 680,
+      "name": "doublade",
+      "types": [
+        "steel",
+        "ghost"
+      ]
+    },
+    "681": {
+      "pokeid": 681,
+      "name": "aegislash-shield",
+      "types": [
+        "steel",
+        "ghost"
+      ]
+    },
+    "682": {
+      "pokeid": 682,
+      "name": "spritzee",
+      "types": [
+        "fairy"
+      ]
+    },
+    "683": {
+      "pokeid": 683,
+      "name": "aromatisse",
+      "types": [
+        "fairy"
+      ]
+    },
+    "684": {
+      "pokeid": 684,
+      "name": "swirlix",
+      "types": [
+        "fairy"
+      ]
+    },
+    "685": {
+      "pokeid": 685,
+      "name": "slurpuff",
+      "types": [
+        "fairy"
+      ]
+    },
+    "686": {
+      "pokeid": 686,
+      "name": "inkay",
+      "types": [
+        "dark",
+        "psychic"
+      ]
+    },
+    "687": {
+      "pokeid": 687,
+      "name": "malamar",
+      "types": [
+        "dark",
+        "psychic"
+      ]
+    },
+    "688": {
+      "pokeid": 688,
+      "name": "binacle",
+      "types": [
+        "rock",
+        "water"
+      ]
+    },
+    "689": {
+      "pokeid": 689,
+      "name": "barbaracle",
+      "types": [
+        "rock",
+        "water"
+      ]
+    },
+    "690": {
+      "pokeid": 690,
+      "name": "skrelp",
+      "types": [
+        "poison",
+        "water"
+      ]
+    },
+    "691": {
+      "pokeid": 691,
+      "name": "dragalge",
+      "types": [
+        "poison",
+        "dragon"
+      ]
+    },
+    "692": {
+      "pokeid": 692,
+      "name": "clauncher",
+      "types": [
+        "water"
+      ]
+    },
+    "693": {
+      "pokeid": 693,
+      "name": "clawitzer",
+      "types": [
+        "water"
+      ]
+    },
+    "694": {
+      "pokeid": 694,
+      "name": "helioptile",
+      "types": [
+        "electric",
+        "normal"
+      ]
+    },
+    "695": {
+      "pokeid": 695,
+      "name": "heliolisk",
+      "types": [
+        "electric",
+        "normal"
+      ]
+    },
+    "696": {
+      "pokeid": 696,
+      "name": "tyrunt",
+      "types": [
+        "rock",
+        "dragon"
+      ]
+    },
+    "697": {
+      "pokeid": 697,
+      "name": "tyrantrum",
+      "types": [
+        "rock",
+        "dragon"
+      ]
+    },
+    "698": {
+      "pokeid": 698,
+      "name": "amaura",
+      "types": [
+        "rock",
+        "ice"
+      ]
+    },
+    "699": {
+      "pokeid": 699,
+      "name": "aurorus",
+      "types": [
+        "rock",
+        "ice"
+      ]
+    },
+    "700": {
+      "pokeid": 700,
+      "name": "sylveon",
+      "types": [
+        "fairy"
+      ]
+    },
+    "701": {
+      "pokeid": 701,
+      "name": "hawlucha",
+      "types": [
+        "fighting",
+        "flying"
+      ]
+    },
+    "702": {
+      "pokeid": 702,
+      "name": "dedenne",
+      "types": [
+        "electric",
+        "fairy"
+      ]
+    },
+    "703": {
+      "pokeid": 703,
+      "name": "carbink",
+      "types": [
+        "rock",
+        "fairy"
+      ]
+    },
+    "704": {
+      "pokeid": 704,
+      "name": "goomy",
+      "types": [
+        "dragon"
+      ]
+    },
+    "705": {
+      "pokeid": 705,
+      "name": "sliggoo",
+      "types": [
+        "dragon"
+      ]
+    },
+    "706": {
+      "pokeid": 706,
+      "name": "goodra",
+      "types": [
+        "dragon"
+      ]
+    },
+    "707": {
+      "pokeid": 707,
+      "name": "klefki",
+      "types": [
+        "steel",
+        "fairy"
+      ]
+    },
+    "708": {
+      "pokeid": 708,
+      "name": "phantump",
+      "types": [
+        "ghost",
+        "grass"
+      ]
+    },
+    "709": {
+      "pokeid": 709,
+      "name": "trevenant",
+      "types": [
+        "ghost",
+        "grass"
+      ]
+    },
+    "710": {
+      "pokeid": 710,
+      "name": "pumpkaboo-average",
+      "types": [
+        "ghost",
+        "grass"
+      ]
+    },
+    "711": {
+      "pokeid": 711,
+      "name": "gourgeist-average",
+      "types": [
+        "ghost",
+        "grass"
+      ]
+    },
+    "712": {
+      "pokeid": 712,
+      "name": "bergmite",
+      "types": [
+        "ice"
+      ]
+    },
+    "713": {
+      "pokeid": 713,
+      "name": "avalugg",
+      "types": [
+        "ice"
+      ]
+    },
+    "714": {
+      "pokeid": 714,
+      "name": "noibat",
+      "types": [
+        "flying",
+        "dragon"
+      ]
+    },
+    "715": {
+      "pokeid": 715,
+      "name": "noivern",
+      "types": [
+        "flying",
+        "dragon"
+      ]
+    },
+    "716": {
+      "pokeid": 716,
+      "name": "xerneas",
+      "types": [
+        "fairy"
+      ]
+    },
+    "717": {
+      "pokeid": 717,
+      "name": "yveltal",
+      "types": [
+        "dark",
+        "flying"
+      ]
+    },
+    "718": {
+      "pokeid": 718,
+      "name": "zygarde-50",
+      "types": [
+        "dragon",
+        "ground"
+      ]
+    },
+    "719": {
+      "pokeid": 719,
+      "name": "diancie",
+      "types": [
+        "rock",
+        "fairy"
+      ]
+    },
+    "720": {
+      "pokeid": 720,
+      "name": "hoopa",
+      "types": [
+        "psychic",
+        "ghost"
+      ]
+    },
+    "721": {
+      "pokeid": 721,
+      "name": "volcanion",
+      "types": [
+        "fire",
+        "water"
+      ]
+    },
+    "722": {
+      "pokeid": 722,
+      "name": "rowlet",
+      "types": [
+        "grass",
+        "flying"
+      ]
+    },
+    "723": {
+      "pokeid": 723,
+      "name": "dartrix",
+      "types": [
+        "grass",
+        "flying"
+      ]
+    },
+    "724": {
+      "pokeid": 724,
+      "name": "decidueye",
+      "types": [
+        "grass",
+        "ghost"
+      ]
+    },
+    "725": {
+      "pokeid": 725,
+      "name": "litten",
+      "types": [
+        "fire"
+      ]
+    },
+    "726": {
+      "pokeid": 726,
+      "name": "torracat",
+      "types": [
+        "fire"
+      ]
+    },
+    "727": {
+      "pokeid": 727,
+      "name": "incineroar",
+      "types": [
+        "fire",
+        "dark"
+      ]
+    },
+    "728": {
+      "pokeid": 728,
+      "name": "popplio",
+      "types": [
+        "water"
+      ]
+    },
+    "729": {
+      "pokeid": 729,
+      "name": "brionne",
+      "types": [
+        "water"
+      ]
+    },
+    "730": {
+      "pokeid": 730,
+      "name": "primarina",
+      "types": [
+        "water",
+        "fairy"
+      ]
+    },
+    "731": {
+      "pokeid": 731,
+      "name": "pikipek",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    "732": {
+      "pokeid": 732,
+      "name": "trumbeak",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    "733": {
+      "pokeid": 733,
+      "name": "toucannon",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    "734": {
+      "pokeid": 734,
+      "name": "yungoos",
+      "types": [
+        "normal"
+      ]
+    },
+    "735": {
+      "pokeid": 735,
+      "name": "gumshoos",
+      "types": [
+        "normal"
+      ]
+    },
+    "736": {
+      "pokeid": 736,
+      "name": "grubbin",
+      "types": [
+        "bug"
+      ]
+    },
+    "737": {
+      "pokeid": 737,
+      "name": "charjabug",
+      "types": [
+        "bug",
+        "electric"
+      ]
+    },
+    "738": {
+      "pokeid": 738,
+      "name": "vikavolt",
+      "types": [
+        "bug",
+        "electric"
+      ]
+    },
+    "739": {
+      "pokeid": 739,
+      "name": "crabrawler",
+      "types": [
+        "fighting"
+      ]
+    },
+    "740": {
+      "pokeid": 740,
+      "name": "crabominable",
+      "types": [
+        "fighting",
+        "ice"
+      ]
+    },
+    "741": {
+      "pokeid": 741,
+      "name": "oricorio-baile",
+      "types": [
+        "fire",
+        "flying"
+      ]
+    },
+    "742": {
+      "pokeid": 742,
+      "name": "cutiefly",
+      "types": [
+        "bug",
+        "fairy"
+      ]
+    },
+    "743": {
+      "pokeid": 743,
+      "name": "ribombee",
+      "types": [
+        "bug",
+        "fairy"
+      ]
+    },
+    "744": {
+      "pokeid": 744,
+      "name": "rockruff",
+      "types": [
+        "rock"
+      ]
+    },
+    "745": {
+      "pokeid": 745,
+      "name": "lycanroc-midday",
+      "types": [
+        "rock"
+      ]
+    },
+    "746": {
+      "pokeid": 746,
+      "name": "wishiwashi-solo",
+      "types": [
+        "water"
+      ]
+    },
+    "747": {
+      "pokeid": 747,
+      "name": "mareanie",
+      "types": [
+        "poison",
+        "water"
+      ]
+    },
+    "748": {
+      "pokeid": 748,
+      "name": "toxapex",
+      "types": [
+        "poison",
+        "water"
+      ]
+    },
+    "749": {
+      "pokeid": 749,
+      "name": "mudbray",
+      "types": [
+        "ground"
+      ]
+    },
+    "750": {
+      "pokeid": 750,
+      "name": "mudsdale",
+      "types": [
+        "ground"
+      ]
+    },
+    "751": {
+      "pokeid": 751,
+      "name": "dewpider",
+      "types": [
+        "water",
+        "bug"
+      ]
+    },
+    "752": {
+      "pokeid": 752,
+      "name": "araquanid",
+      "types": [
+        "water",
+        "bug"
+      ]
+    },
+    "753": {
+      "pokeid": 753,
+      "name": "fomantis",
+      "types": [
+        "grass"
+      ]
+    },
+    "754": {
+      "pokeid": 754,
+      "name": "lurantis",
+      "types": [
+        "grass"
+      ]
+    },
+    "755": {
+      "pokeid": 755,
+      "name": "morelull",
+      "types": [
+        "grass",
+        "fairy"
+      ]
+    },
+    "756": {
+      "pokeid": 756,
+      "name": "shiinotic",
+      "types": [
+        "grass",
+        "fairy"
+      ]
+    },
+    "757": {
+      "pokeid": 757,
+      "name": "salandit",
+      "types": [
+        "poison",
+        "fire"
+      ]
+    },
+    "758": {
+      "pokeid": 758,
+      "name": "salazzle",
+      "types": [
+        "poison",
+        "fire"
+      ]
+    },
+    "759": {
+      "pokeid": 759,
+      "name": "stufful",
+      "types": [
+        "normal",
+        "fighting"
+      ]
+    },
+    "760": {
+      "pokeid": 760,
+      "name": "bewear",
+      "types": [
+        "normal",
+        "fighting"
+      ]
+    },
+    "761": {
+      "pokeid": 761,
+      "name": "bounsweet",
+      "types": [
+        "grass"
+      ]
+    },
+    "762": {
+      "pokeid": 762,
+      "name": "steenee",
+      "types": [
+        "grass"
+      ]
+    },
+    "763": {
+      "pokeid": 763,
+      "name": "tsareena",
+      "types": [
+        "grass"
+      ]
+    },
+    "764": {
+      "pokeid": 764,
+      "name": "comfey",
+      "types": [
+        "fairy"
+      ]
+    },
+    "765": {
+      "pokeid": 765,
+      "name": "oranguru",
+      "types": [
+        "normal",
+        "psychic"
+      ]
+    },
+    "766": {
+      "pokeid": 766,
+      "name": "passimian",
+      "types": [
+        "fighting"
+      ]
+    },
+    "767": {
+      "pokeid": 767,
+      "name": "wimpod",
+      "types": [
+        "bug",
+        "water"
+      ]
+    },
+    "768": {
+      "pokeid": 768,
+      "name": "golisopod",
+      "types": [
+        "bug",
+        "water"
+      ]
+    },
+    "769": {
+      "pokeid": 769,
+      "name": "sandygast",
+      "types": [
+        "ghost",
+        "ground"
+      ]
+    },
+    "770": {
+      "pokeid": 770,
+      "name": "palossand",
+      "types": [
+        "ghost",
+        "ground"
+      ]
+    },
+    "771": {
+      "pokeid": 771,
+      "name": "pyukumuku",
+      "types": [
+        "water"
+      ]
+    },
+    "772": {
+      "pokeid": 772,
+      "name": "type-null",
+      "types": [
+        "normal"
+      ]
+    },
+    "773": {
+      "pokeid": 773,
+      "name": "silvally",
+      "types": [
+        "normal"
+      ]
+    },
+    "774": {
+      "pokeid": 774,
+      "name": "minior-red-meteor",
+      "types": [
+        "rock",
+        "flying"
+      ]
+    },
+    "775": {
+      "pokeid": 775,
+      "name": "komala",
+      "types": [
+        "normal"
+      ]
+    },
+    "776": {
+      "pokeid": 776,
+      "name": "turtonator",
+      "types": [
+        "fire",
+        "dragon"
+      ]
+    },
+    "777": {
+      "pokeid": 777,
+      "name": "togedemaru",
+      "types": [
+        "electric",
+        "steel"
+      ]
+    },
+    "778": {
+      "pokeid": 778,
+      "name": "mimikyu-disguised",
+      "types": [
+        "ghost",
+        "fairy"
+      ]
+    },
+    "779": {
+      "pokeid": 779,
+      "name": "bruxish",
+      "types": [
+        "water",
+        "psychic"
+      ]
+    },
+    "780": {
+      "pokeid": 780,
+      "name": "drampa",
+      "types": [
+        "normal",
+        "dragon"
+      ]
+    },
+    "781": {
+      "pokeid": 781,
+      "name": "dhelmise",
+      "types": [
+        "ghost",
+        "grass"
+      ]
+    },
+    "782": {
+      "pokeid": 782,
+      "name": "jangmo-o",
+      "types": [
+        "dragon"
+      ]
+    },
+    "783": {
+      "pokeid": 783,
+      "name": "hakamo-o",
+      "types": [
+        "dragon",
+        "fighting"
+      ]
+    },
+    "784": {
+      "pokeid": 784,
+      "name": "kommo-o",
+      "types": [
+        "dragon",
+        "fighting"
+      ]
+    },
+    "785": {
+      "pokeid": 785,
+      "name": "tapu-koko",
+      "types": [
+        "electric",
+        "fairy"
+      ]
+    },
+    "786": {
+      "pokeid": 786,
+      "name": "tapu-lele",
+      "types": [
+        "psychic",
+        "fairy"
+      ]
+    },
+    "787": {
+      "pokeid": 787,
+      "name": "tapu-bulu",
+      "types": [
+        "grass",
+        "fairy"
+      ]
+    },
+    "788": {
+      "pokeid": 788,
+      "name": "tapu-fini",
+      "types": [
+        "water",
+        "fairy"
+      ]
+    },
+    "789": {
+      "pokeid": 789,
+      "name": "cosmog",
+      "types": [
+        "psychic"
+      ]
+    },
+    "790": {
+      "pokeid": 790,
+      "name": "cosmoem",
+      "types": [
+        "psychic"
+      ]
+    },
+    "791": {
+      "pokeid": 791,
+      "name": "solgaleo",
+      "types": [
+        "psychic",
+        "steel"
+      ]
+    },
+    "792": {
+      "pokeid": 792,
+      "name": "lunala",
+      "types": [
+        "psychic",
+        "ghost"
+      ]
+    },
+    "793": {
+      "pokeid": 793,
+      "name": "nihilego",
+      "types": [
+        "rock",
+        "poison"
+      ]
+    },
+    "794": {
+      "pokeid": 794,
+      "name": "buzzwole",
+      "types": [
+        "bug",
+        "fighting"
+      ]
+    },
+    "795": {
+      "pokeid": 795,
+      "name": "pheromosa",
+      "types": [
+        "bug",
+        "fighting"
+      ]
+    },
+    "796": {
+      "pokeid": 796,
+      "name": "xurkitree",
+      "types": [
+        "electric"
+      ]
+    },
+    "797": {
+      "pokeid": 797,
+      "name": "celesteela",
+      "types": [
+        "steel",
+        "flying"
+      ]
+    },
+    "798": {
+      "pokeid": 798,
+      "name": "kartana",
+      "types": [
+        "grass",
+        "steel"
+      ]
+    },
+    "799": {
+      "pokeid": 799,
+      "name": "guzzlord",
+      "types": [
+        "dark",
+        "dragon"
+      ]
+    },
+    "800": {
+      "pokeid": 800,
+      "name": "necrozma",
+      "types": [
+        "psychic"
+      ]
+    },
+    "801": {
+      "pokeid": 801,
+      "name": "magearna",
+      "types": [
+        "steel",
+        "fairy"
+      ]
+    },
+    "802": {
+      "pokeid": 802,
+      "name": "marshadow",
+      "types": [
+        "fighting",
+        "ghost"
+      ]
+    },
+    "803": {
+      "pokeid": 803,
+      "name": "poipole",
+      "types": [
+        "poison"
+      ]
+    },
+    "804": {
+      "pokeid": 804,
+      "name": "naganadel",
+      "types": [
+        "poison",
+        "dragon"
+      ]
+    },
+    "805": {
+      "pokeid": 805,
+      "name": "stakataka",
+      "types": [
+        "rock",
+        "steel"
+      ]
+    },
+    "806": {
+      "pokeid": 806,
+      "name": "blacephalon",
+      "types": [
+        "fire",
+        "ghost"
+      ]
+    },
+    "807": {
+      "pokeid": 807,
+      "name": "zeraora",
+      "types": [
+        "electric"
+      ]
+    },
+    "808": {
+      "pokeid": 808,
+      "name": "meltan",
+      "types": [
+        "steel"
+      ]
+    },
+    "809": {
+      "pokeid": 809,
+      "name": "melmetal",
+      "types": [
+        "steel"
+      ]
+    },
+    "810": {
+      "pokeid": 810,
+      "name": "grookey",
+      "types": [
+        "grass"
+      ]
+    },
+    "811": {
+      "pokeid": 811,
+      "name": "thwackey",
+      "types": [
+        "grass"
+      ]
+    },
+    "812": {
+      "pokeid": 812,
+      "name": "rillaboom",
+      "types": [
+        "grass"
+      ]
+    },
+    "813": {
+      "pokeid": 813,
+      "name": "scorbunny",
+      "types": [
+        "fire"
+      ]
+    },
+    "814": {
+      "pokeid": 814,
+      "name": "raboot",
+      "types": [
+        "fire"
+      ]
+    },
+    "815": {
+      "pokeid": 815,
+      "name": "cinderace",
+      "types": [
+        "fire"
+      ]
+    },
+    "816": {
+      "pokeid": 816,
+      "name": "sobble",
+      "types": [
+        "water"
+      ]
+    },
+    "817": {
+      "pokeid": 817,
+      "name": "drizzile",
+      "types": [
+        "water"
+      ]
+    },
+    "818": {
+      "pokeid": 818,
+      "name": "inteleon",
+      "types": [
+        "water"
+      ]
+    },
+    "819": {
+      "pokeid": 819,
+      "name": "skwovet",
+      "types": [
+        "normal"
+      ]
+    },
+    "820": {
+      "pokeid": 820,
+      "name": "greedent",
+      "types": [
+        "normal"
+      ]
+    },
+    "821": {
+      "pokeid": 821,
+      "name": "rookidee",
+      "types": [
+        "flying"
+      ]
+    },
+    "822": {
+      "pokeid": 822,
+      "name": "corvisquire",
+      "types": [
+        "flying"
+      ]
+    },
+    "823": {
+      "pokeid": 823,
+      "name": "corviknight",
+      "types": [
+        "flying",
+        "steel"
+      ]
+    },
+    "824": {
+      "pokeid": 824,
+      "name": "blipbug",
+      "types": [
+        "bug"
+      ]
+    },
+    "825": {
+      "pokeid": 825,
+      "name": "dottler",
+      "types": [
+        "bug",
+        "psychic"
+      ]
+    },
+    "826": {
+      "pokeid": 826,
+      "name": "orbeetle",
+      "types": [
+        "bug",
+        "psychic"
+      ]
+    },
+    "827": {
+      "pokeid": 827,
+      "name": "nickit",
+      "types": [
+        "dark"
+      ]
+    },
+    "828": {
+      "pokeid": 828,
+      "name": "thievul",
+      "types": [
+        "dark"
+      ]
+    },
+    "829": {
+      "pokeid": 829,
+      "name": "gossifleur",
+      "types": [
+        "grass"
+      ]
+    },
+    "830": {
+      "pokeid": 830,
+      "name": "eldegoss",
+      "types": [
+        "grass"
+      ]
+    },
+    "831": {
+      "pokeid": 831,
+      "name": "wooloo",
+      "types": [
+        "normal"
+      ]
+    },
+    "832": {
+      "pokeid": 832,
+      "name": "dubwool",
+      "types": [
+        "normal"
+      ]
+    },
+    "833": {
+      "pokeid": 833,
+      "name": "chewtle",
+      "types": [
+        "water"
+      ]
+    },
+    "834": {
+      "pokeid": 834,
+      "name": "drednaw",
+      "types": [
+        "water",
+        "rock"
+      ]
+    },
+    "835": {
+      "pokeid": 835,
+      "name": "yamper",
+      "types": [
+        "electric"
+      ]
+    },
+    "836": {
+      "pokeid": 836,
+      "name": "boltund",
+      "types": [
+        "electric"
+      ]
+    },
+    "837": {
+      "pokeid": 837,
+      "name": "rolycoly",
+      "types": [
+        "rock"
+      ]
+    },
+    "838": {
+      "pokeid": 838,
+      "name": "carkol",
+      "types": [
+        "rock",
+        "fire"
+      ]
+    },
+    "839": {
+      "pokeid": 839,
+      "name": "coalossal",
+      "types": [
+        "rock",
+        "fire"
+      ]
+    },
+    "840": {
+      "pokeid": 840,
+      "name": "applin",
+      "types": [
+        "grass",
+        "dragon"
+      ]
+    },
+    "841": {
+      "pokeid": 841,
+      "name": "flapple",
+      "types": [
+        "grass",
+        "dragon"
+      ]
+    },
+    "842": {
+      "pokeid": 842,
+      "name": "appletun",
+      "types": [
+        "grass",
+        "dragon"
+      ]
+    },
+    "843": {
+      "pokeid": 843,
+      "name": "silicobra",
+      "types": [
+        "ground"
+      ]
+    },
+    "844": {
+      "pokeid": 844,
+      "name": "sandaconda",
+      "types": [
+        "ground"
+      ]
+    },
+    "845": {
+      "pokeid": 845,
+      "name": "cramorant",
+      "types": [
+        "flying",
+        "water"
+      ]
+    },
+    "846": {
+      "pokeid": 846,
+      "name": "arrokuda",
+      "types": [
+        "water"
+      ]
+    },
+    "847": {
+      "pokeid": 847,
+      "name": "barraskewda",
+      "types": [
+        "water"
+      ]
+    },
+    "848": {
+      "pokeid": 848,
+      "name": "toxel",
+      "types": [
+        "electric",
+        "poison"
+      ]
+    },
+    "849": {
+      "pokeid": 849,
+      "name": "toxtricity-amped",
+      "types": [
+        "electric",
+        "poison"
+      ]
+    },
+    "850": {
+      "pokeid": 850,
+      "name": "sizzlipede",
+      "types": [
+        "fire",
+        "bug"
+      ]
+    },
+    "851": {
+      "pokeid": 851,
+      "name": "centiskorch",
+      "types": [
+        "fire",
+        "bug"
+      ]
+    },
+    "852": {
+      "pokeid": 852,
+      "name": "clobbopus",
+      "types": [
+        "fighting"
+      ]
+    },
+    "853": {
+      "pokeid": 853,
+      "name": "grapploct",
+      "types": [
+        "fighting"
+      ]
+    },
+    "854": {
+      "pokeid": 854,
+      "name": "sinistea",
+      "types": [
+        "ghost"
+      ]
+    },
+    "855": {
+      "pokeid": 855,
+      "name": "polteageist",
+      "types": [
+        "ghost"
+      ]
+    },
+    "856": {
+      "pokeid": 856,
+      "name": "hatenna",
+      "types": [
+        "psychic"
+      ]
+    },
+    "857": {
+      "pokeid": 857,
+      "name": "hattrem",
+      "types": [
+        "psychic"
+      ]
+    },
+    "858": {
+      "pokeid": 858,
+      "name": "hatterene",
+      "types": [
+        "psychic",
+        "fairy"
+      ]
+    },
+    "859": {
+      "pokeid": 859,
+      "name": "impidimp",
+      "types": [
+        "dark",
+        "fairy"
+      ]
+    },
+    "860": {
+      "pokeid": 860,
+      "name": "morgrem",
+      "types": [
+        "dark",
+        "fairy"
+      ]
+    },
+    "861": {
+      "pokeid": 861,
+      "name": "grimmsnarl",
+      "types": [
+        "dark",
+        "fairy"
+      ]
+    },
+    "862": {
+      "pokeid": 862,
+      "name": "obstagoon",
+      "types": [
+        "dark",
+        "normal"
+      ]
+    },
+    "863": {
+      "pokeid": 863,
+      "name": "perrserker",
+      "types": [
+        "steel"
+      ]
+    },
+    "864": {
+      "pokeid": 864,
+      "name": "cursola",
+      "types": [
+        "ghost"
+      ]
+    },
+    "865": {
+      "pokeid": 865,
+      "name": "sirfetchd",
+      "types": [
+        "fighting"
+      ]
+    },
+    "866": {
+      "pokeid": 866,
+      "name": "mr-rime",
+      "types": [
+        "ice",
+        "psychic"
+      ]
+    },
+    "867": {
+      "pokeid": 867,
+      "name": "runerigus",
+      "types": [
+        "ground",
+        "ghost"
+      ]
+    },
+    "868": {
+      "pokeid": 868,
+      "name": "milcery",
+      "types": [
+        "fairy"
+      ]
+    },
+    "869": {
+      "pokeid": 869,
+      "name": "alcremie",
+      "types": [
+        "fairy"
+      ]
+    },
+    "870": {
+      "pokeid": 870,
+      "name": "falinks",
+      "types": [
+        "fighting"
+      ]
+    },
+    "871": {
+      "pokeid": 871,
+      "name": "pincurchin",
+      "types": [
+        "electric"
+      ]
+    },
+    "872": {
+      "pokeid": 872,
+      "name": "snom",
+      "types": [
+        "ice",
+        "bug"
+      ]
+    },
+    "873": {
+      "pokeid": 873,
+      "name": "frosmoth",
+      "types": [
+        "ice",
+        "bug"
+      ]
+    },
+    "874": {
+      "pokeid": 874,
+      "name": "stonjourner",
+      "types": [
+        "rock"
+      ]
+    },
+    "875": {
+      "pokeid": 875,
+      "name": "eiscue-ice",
+      "types": [
+        "ice"
+      ]
+    },
+    "876": {
+      "pokeid": 876,
+      "name": "indeedee-male",
+      "types": [
+        "psychic",
+        "normal"
+      ]
+    },
+    "877": {
+      "pokeid": 877,
+      "name": "morpeko-full-belly",
+      "types": [
+        "electric",
+        "dark"
+      ]
+    },
+    "878": {
+      "pokeid": 878,
+      "name": "cufant",
+      "types": [
+        "steel"
+      ]
+    },
+    "879": {
+      "pokeid": 879,
+      "name": "copperajah",
+      "types": [
+        "steel"
+      ]
+    },
+    "880": {
+      "pokeid": 880,
+      "name": "dracozolt",
+      "types": [
+        "electric",
+        "dragon"
+      ]
+    },
+    "881": {
+      "pokeid": 881,
+      "name": "arctozolt",
+      "types": [
+        "electric",
+        "ice"
+      ]
+    },
+    "882": {
+      "pokeid": 882,
+      "name": "dracovish",
+      "types": [
+        "water",
+        "dragon"
+      ]
+    },
+    "883": {
+      "pokeid": 883,
+      "name": "arctovish",
+      "types": [
+        "water",
+        "ice"
+      ]
+    },
+    "884": {
+      "pokeid": 884,
+      "name": "duraludon",
+      "types": [
+        "steel",
+        "dragon"
+      ]
+    },
+    "885": {
+      "pokeid": 885,
+      "name": "dreepy",
+      "types": [
+        "dragon",
+        "ghost"
+      ]
+    },
+    "886": {
+      "pokeid": 886,
+      "name": "drakloak",
+      "types": [
+        "dragon",
+        "ghost"
+      ]
+    },
+    "887": {
+      "pokeid": 887,
+      "name": "dragapult",
+      "types": [
+        "dragon",
+        "ghost"
+      ]
+    },
+    "888": {
+      "pokeid": 888,
+      "name": "zacian",
+      "types": [
+        "fairy"
+      ]
+    },
+    "889": {
+      "pokeid": 889,
+      "name": "zamazenta",
+      "types": [
+        "fighting"
+      ]
+    },
+    "890": {
+      "pokeid": 890,
+      "name": "eternatus",
+      "types": [
+        "poison",
+        "dragon"
+      ]
+    },
+    "891": {
+      "pokeid": 891,
+      "name": "kubfu",
+      "types": [
+        "fighting"
+      ]
+    },
+    "892": {
+      "pokeid": 892,
+      "name": "urshifu-single-strike",
+      "types": [
+        "fighting",
+        "dark"
+      ]
+    },
+    "893": {
+      "pokeid": 893,
+      "name": "zarude",
+      "types": [
+        "dark",
+        "grass"
+      ]
+    },
+    "894": {
+      "pokeid": 894,
+      "name": "regieleki",
+      "types": [
+        "electric"
+      ]
+    },
+    "895": {
+      "pokeid": 895,
+      "name": "regidrago",
+      "types": [
+        "dragon"
+      ]
+    },
+    "896": {
+      "pokeid": 896,
+      "name": "glastrier",
+      "types": [
+        "ice"
+      ]
+    },
+    "897": {
+      "pokeid": 897,
+      "name": "spectrier",
+      "types": [
+        "ghost"
+      ]
+    },
+    "898": {
+      "pokeid": 898,
+      "name": "calyrex",
+      "types": [
+        "psychic",
+        "grass"
+      ]
+    },
+    "899": {
+      "pokeid": 899,
+      "name": "wyrdeer",
+      "types": [
+        "normal",
+        "psychic"
+      ]
+    },
+    "900": {
+      "pokeid": 900,
+      "name": "kleavor",
+      "types": [
+        "bug",
+        "rock"
+      ]
+    },
+    "901": {
+      "pokeid": 901,
+      "name": "ursaluna",
+      "types": [
+        "ground",
+        "normal"
+      ]
+    },
+    "902": {
+      "pokeid": 902,
+      "name": "basculegion-male",
+      "types": [
+        "water",
+        "ghost"
+      ]
+    },
+    "903": {
+      "pokeid": 903,
+      "name": "sneasler",
+      "types": [
+        "fighting",
+        "poison"
+      ]
+    },
+    "904": {
+      "pokeid": 904,
+      "name": "overqwil",
+      "types": [
+        "dark",
+        "poison"
+      ]
+    },
+    "905": {
+      "pokeid": 905,
+      "name": "enamorus-incarnate",
+      "types": [
+        "fairy",
+        "flying"
+      ]
+    },
+    "906": {
+      "pokeid": 906,
+      "name": "sprigatito",
+      "types": [
+        "grass"
+      ]
+    },
+    "907": {
+      "pokeid": 907,
+      "name": "floragato",
+      "types": [
+        "grass"
+      ]
+    },
+    "908": {
+      "pokeid": 908,
+      "name": "meowscarada",
+      "types": [
+        "grass",
+        "dark"
+      ]
+    },
+    "909": {
+      "pokeid": 909,
+      "name": "fuecoco",
+      "types": [
+        "fire"
+      ]
+    },
+    "910": {
+      "pokeid": 910,
+      "name": "crocalor",
+      "types": [
+        "fire"
+      ]
+    },
+    "911": {
+      "pokeid": 911,
+      "name": "skeledirge",
+      "types": [
+        "fire",
+        "ghost"
+      ]
+    },
+    "912": {
+      "pokeid": 912,
+      "name": "quaxly",
+      "types": [
+        "water"
+      ]
+    },
+    "913": {
+      "pokeid": 913,
+      "name": "quaxwell",
+      "types": [
+        "water"
+      ]
+    },
+    "914": {
+      "pokeid": 914,
+      "name": "quaquaval",
+      "types": [
+        "water",
+        "fighting"
+      ]
+    },
+    "915": {
+      "pokeid": 915,
+      "name": "lechonk",
+      "types": [
+        "normal"
+      ]
+    },
+    "916": {
+      "pokeid": 916,
+      "name": "oinkologne-male",
+      "types": [
+        "normal"
+      ]
+    },
+    "917": {
+      "pokeid": 917,
+      "name": "tarountula",
+      "types": [
+        "bug"
+      ]
+    },
+    "918": {
+      "pokeid": 918,
+      "name": "spidops",
+      "types": [
+        "bug"
+      ]
+    },
+    "919": {
+      "pokeid": 919,
+      "name": "nymble",
+      "types": [
+        "bug"
+      ]
+    },
+    "920": {
+      "pokeid": 920,
+      "name": "lokix",
+      "types": [
+        "bug",
+        "dark"
+      ]
+    },
+    "921": {
+      "pokeid": 921,
+      "name": "pawmi",
+      "types": [
+        "electric"
+      ]
+    },
+    "922": {
+      "pokeid": 922,
+      "name": "pawmo",
+      "types": [
+        "electric",
+        "fighting"
+      ]
+    },
+    "923": {
+      "pokeid": 923,
+      "name": "pawmot",
+      "types": [
+        "electric",
+        "fighting"
+      ]
+    },
+    "924": {
+      "pokeid": 924,
+      "name": "tandemaus",
+      "types": [
+        "normal"
+      ]
+    },
+    "925": {
+      "pokeid": 925,
+      "name": "maushold-family-of-four",
+      "types": [
+        "normal"
+      ]
+    },
+    "926": {
+      "pokeid": 926,
+      "name": "fidough",
+      "types": [
+        "fairy"
+      ]
+    },
+    "927": {
+      "pokeid": 927,
+      "name": "dachsbun",
+      "types": [
+        "fairy"
+      ]
+    },
+    "928": {
+      "pokeid": 928,
+      "name": "smoliv",
+      "types": [
+        "grass",
+        "normal"
+      ]
+    },
+    "929": {
+      "pokeid": 929,
+      "name": "dolliv",
+      "types": [
+        "grass",
+        "normal"
+      ]
+    },
+    "930": {
+      "pokeid": 930,
+      "name": "arboliva",
+      "types": [
+        "grass",
+        "normal"
+      ]
+    },
+    "931": {
+      "pokeid": 931,
+      "name": "squawkabilly-green-plumage",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    "932": {
+      "pokeid": 932,
+      "name": "nacli",
+      "types": [
+        "rock"
+      ]
+    },
+    "933": {
+      "pokeid": 933,
+      "name": "naclstack",
+      "types": [
+        "rock"
+      ]
+    },
+    "934": {
+      "pokeid": 934,
+      "name": "garganacl",
+      "types": [
+        "rock"
+      ]
+    },
+    "935": {
+      "pokeid": 935,
+      "name": "charcadet",
+      "types": [
+        "fire"
+      ]
+    },
+    "936": {
+      "pokeid": 936,
+      "name": "armarouge",
+      "types": [
+        "fire",
+        "psychic"
+      ]
+    },
+    "937": {
+      "pokeid": 937,
+      "name": "ceruledge",
+      "types": [
+        "fire",
+        "ghost"
+      ]
+    },
+    "938": {
+      "pokeid": 938,
+      "name": "tadbulb",
+      "types": [
+        "electric"
+      ]
+    },
+    "939": {
+      "pokeid": 939,
+      "name": "bellibolt",
+      "types": [
+        "electric"
+      ]
+    },
+    "940": {
+      "pokeid": 940,
+      "name": "wattrel",
+      "types": [
+        "electric",
+        "flying"
+      ]
+    },
+    "941": {
+      "pokeid": 941,
+      "name": "kilowattrel",
+      "types": [
+        "electric",
+        "flying"
+      ]
+    },
+    "942": {
+      "pokeid": 942,
+      "name": "maschiff",
+      "types": [
+        "dark"
+      ]
+    },
+    "943": {
+      "pokeid": 943,
+      "name": "mabosstiff",
+      "types": [
+        "dark"
+      ]
+    },
+    "944": {
+      "pokeid": 944,
+      "name": "shroodle",
+      "types": [
+        "poison",
+        "normal"
+      ]
+    },
+    "945": {
+      "pokeid": 945,
+      "name": "grafaiai",
+      "types": [
+        "poison",
+        "normal"
+      ]
+    },
+    "946": {
+      "pokeid": 946,
+      "name": "bramblin",
+      "types": [
+        "grass",
+        "ghost"
+      ]
+    },
+    "947": {
+      "pokeid": 947,
+      "name": "brambleghast",
+      "types": [
+        "grass",
+        "ghost"
+      ]
+    },
+    "948": {
+      "pokeid": 948,
+      "name": "toedscool",
+      "types": [
+        "ground",
+        "grass"
+      ]
+    },
+    "949": {
+      "pokeid": 949,
+      "name": "toedscruel",
+      "types": [
+        "ground",
+        "grass"
+      ]
+    },
+    "950": {
+      "pokeid": 950,
+      "name": "klawf",
+      "types": [
+        "rock"
+      ]
+    },
+    "951": {
+      "pokeid": 951,
+      "name": "capsakid",
+      "types": [
+        "grass"
+      ]
+    },
+    "952": {
+      "pokeid": 952,
+      "name": "scovillain",
+      "types": [
+        "grass",
+        "fire"
+      ]
+    },
+    "953": {
+      "pokeid": 953,
+      "name": "rellor",
+      "types": [
+        "bug"
+      ]
+    },
+    "954": {
+      "pokeid": 954,
+      "name": "rabsca",
+      "types": [
+        "bug",
+        "psychic"
+      ]
+    },
+    "955": {
+      "pokeid": 955,
+      "name": "flittle",
+      "types": [
+        "psychic"
+      ]
+    },
+    "956": {
+      "pokeid": 956,
+      "name": "espathra",
+      "types": [
+        "psychic"
+      ]
+    },
+    "957": {
+      "pokeid": 957,
+      "name": "tinkatink",
+      "types": [
+        "fairy",
+        "steel"
+      ]
+    },
+    "958": {
+      "pokeid": 958,
+      "name": "tinkatuff",
+      "types": [
+        "fairy",
+        "steel"
+      ]
+    },
+    "959": {
+      "pokeid": 959,
+      "name": "tinkaton",
+      "types": [
+        "fairy",
+        "steel"
+      ]
+    },
+    "960": {
+      "pokeid": 960,
+      "name": "wiglett",
+      "types": [
+        "water"
+      ]
+    },
+    "961": {
+      "pokeid": 961,
+      "name": "wugtrio",
+      "types": [
+        "water"
+      ]
+    },
+    "962": {
+      "pokeid": 962,
+      "name": "bombirdier",
+      "types": [
+        "flying",
+        "dark"
+      ]
+    },
+    "963": {
+      "pokeid": 963,
+      "name": "finizen",
+      "types": [
+        "water"
+      ]
+    },
+    "964": {
+      "pokeid": 964,
+      "name": "palafin-zero",
+      "types": [
+        "water"
+      ]
+    },
+    "965": {
+      "pokeid": 965,
+      "name": "varoom",
+      "types": [
+        "steel",
+        "poison"
+      ]
+    },
+    "966": {
+      "pokeid": 966,
+      "name": "revavroom",
+      "types": [
+        "steel",
+        "poison"
+      ]
+    },
+    "967": {
+      "pokeid": 967,
+      "name": "cyclizar",
+      "types": [
+        "dragon",
+        "normal"
+      ]
+    },
+    "968": {
+      "pokeid": 968,
+      "name": "orthworm",
+      "types": [
+        "steel"
+      ]
+    },
+    "969": {
+      "pokeid": 969,
+      "name": "glimmet",
+      "types": [
+        "rock",
+        "poison"
+      ]
+    },
+    "970": {
+      "pokeid": 970,
+      "name": "glimmora",
+      "types": [
+        "rock",
+        "poison"
+      ]
+    },
+    "971": {
+      "pokeid": 971,
+      "name": "greavard",
+      "types": [
+        "ghost"
+      ]
+    },
+    "972": {
+      "pokeid": 972,
+      "name": "houndstone",
+      "types": [
+        "ghost"
+      ]
+    },
+    "973": {
+      "pokeid": 973,
+      "name": "flamigo",
+      "types": [
+        "flying",
+        "fighting"
+      ]
+    },
+    "974": {
+      "pokeid": 974,
+      "name": "cetoddle",
+      "types": [
+        "ice"
+      ]
+    },
+    "975": {
+      "pokeid": 975,
+      "name": "cetitan",
+      "types": [
+        "ice"
+      ]
+    },
+    "976": {
+      "pokeid": 976,
+      "name": "veluza",
+      "types": [
+        "water",
+        "psychic"
+      ]
+    },
+    "977": {
+      "pokeid": 977,
+      "name": "dondozo",
+      "types": [
+        "water"
+      ]
+    },
+    "978": {
+      "pokeid": 978,
+      "name": "tatsugiri-curly",
+      "types": [
+        "dragon",
+        "water"
+      ]
+    },
+    "979": {
+      "pokeid": 979,
+      "name": "annihilape",
+      "types": [
+        "fighting",
+        "ghost"
+      ]
+    },
+    "980": {
+      "pokeid": 980,
+      "name": "clodsire",
+      "types": [
+        "poison",
+        "ground"
+      ]
+    },
+    "981": {
+      "pokeid": 981,
+      "name": "farigiraf",
+      "types": [
+        "normal",
+        "psychic"
+      ]
+    },
+    "982": {
+      "pokeid": 982,
+      "name": "dudunsparce-two-segment",
+      "types": [
+        "normal"
+      ]
+    },
+    "983": {
+      "pokeid": 983,
+      "name": "kingambit",
+      "types": [
+        "dark",
+        "steel"
+      ]
+    },
+    "984": {
+      "pokeid": 984,
+      "name": "great-tusk",
+      "types": [
+        "ground",
+        "fighting"
+      ]
+    },
+    "985": {
+      "pokeid": 985,
+      "name": "scream-tail",
+      "types": [
+        "fairy",
+        "psychic"
+      ]
+    },
+    "986": {
+      "pokeid": 986,
+      "name": "brute-bonnet",
+      "types": [
+        "grass",
+        "dark"
+      ]
+    },
+    "987": {
+      "pokeid": 987,
+      "name": "flutter-mane",
+      "types": [
+        "ghost",
+        "fairy"
+      ]
+    },
+    "988": {
+      "pokeid": 988,
+      "name": "slither-wing",
+      "types": [
+        "bug",
+        "fighting"
+      ]
+    },
+    "989": {
+      "pokeid": 989,
+      "name": "sandy-shocks",
+      "types": [
+        "electric",
+        "ground"
+      ]
+    },
+    "990": {
+      "pokeid": 990,
+      "name": "iron-treads",
+      "types": [
+        "ground",
+        "steel"
+      ]
+    },
+    "991": {
+      "pokeid": 991,
+      "name": "iron-bundle",
+      "types": [
+        "ice",
+        "water"
+      ]
+    },
+    "992": {
+      "pokeid": 992,
+      "name": "iron-hands",
+      "types": [
+        "fighting",
+        "electric"
+      ]
+    },
+    "993": {
+      "pokeid": 993,
+      "name": "iron-jugulis",
+      "types": [
+        "dark",
+        "flying"
+      ]
+    },
+    "994": {
+      "pokeid": 994,
+      "name": "iron-moth",
+      "types": [
+        "fire",
+        "poison"
+      ]
+    },
+    "995": {
+      "pokeid": 995,
+      "name": "iron-thorns",
+      "types": [
+        "rock",
+        "electric"
+      ]
+    },
+    "996": {
+      "pokeid": 996,
+      "name": "frigibax",
+      "types": [
+        "dragon",
+        "ice"
+      ]
+    },
+    "997": {
+      "pokeid": 997,
+      "name": "arctibax",
+      "types": [
+        "dragon",
+        "ice"
+      ]
+    },
+    "998": {
+      "pokeid": 998,
+      "name": "baxcalibur",
+      "types": [
+        "dragon",
+        "ice"
+      ]
+    },
+    "999": {
+      "pokeid": 999,
+      "name": "gimmighoul",
+      "types": [
+        "ghost"
+      ]
+    },
+    "1000": {
+      "pokeid": 1000,
+      "name": "gholdengo",
+      "types": [
+        "steel",
+        "ghost"
+      ]
+    },
+    "1001": {
+      "pokeid": 1001,
+      "name": "wo-chien",
+      "types": [
+        "dark",
+        "grass"
+      ]
+    },
+    "1002": {
+      "pokeid": 1002,
+      "name": "chien-pao",
+      "types": [
+        "dark",
+        "ice"
+      ]
+    },
+    "1003": {
+      "pokeid": 1003,
+      "name": "ting-lu",
+      "types": [
+        "dark",
+        "ground"
+      ]
+    },
+    "1004": {
+      "pokeid": 1004,
+      "name": "chi-yu",
+      "types": [
+        "dark",
+        "fire"
+      ]
+    },
+    "1005": {
+      "pokeid": 1005,
+      "name": "roaring-moon",
+      "types": [
+        "dragon",
+        "dark"
+      ]
+    },
+    "1006": {
+      "pokeid": 1006,
+      "name": "iron-valiant",
+      "types": [
+        "fairy",
+        "fighting"
+      ]
+    },
+    "1007": {
+      "pokeid": 1007,
+      "name": "koraidon",
+      "types": [
+        "fighting",
+        "dragon"
+      ]
+    },
+    "1008": {
+      "pokeid": 1008,
+      "name": "miraidon",
+      "types": [
+        "electric",
+        "dragon"
+      ]
+    },
+    "1009": {
+      "pokeid": 1009,
+      "name": "walking-wake",
+      "types": [
+        "water",
+        "dragon"
+      ]
+    },
+    "1010": {
+      "pokeid": 1010,
+      "name": "iron-leaves",
+      "types": [
+        "grass",
+        "psychic"
+      ]
+    },
+    "1011": {
+      "pokeid": 1011,
+      "name": "dipplin",
+      "types": [
+        "grass",
+        "dragon"
+      ]
+    },
+    "1012": {
+      "pokeid": 1012,
+      "name": "poltchageist",
+      "types": [
+        "grass",
+        "ghost"
+      ]
+    },
+    "1013": {
+      "pokeid": 1013,
+      "name": "sinistcha",
+      "types": [
+        "grass",
+        "ghost"
+      ]
+    },
+    "1014": {
+      "pokeid": 1014,
+      "name": "okidogi",
+      "types": [
+        "poison",
+        "fighting"
+      ]
+    },
+    "1015": {
+      "pokeid": 1015,
+      "name": "munkidori",
+      "types": [
+        "poison",
+        "psychic"
+      ]
+    },
+    "1016": {
+      "pokeid": 1016,
+      "name": "fezandipiti",
+      "types": [
+        "poison",
+        "fairy"
+      ]
+    },
+    "1017": {
+      "pokeid": 1017,
+      "name": "ogerpon",
+      "types": [
+        "grass"
+      ]
+    },
+    "1018": {
+      "pokeid": 1018,
+      "name": "archaludon",
+      "types": [
+        "steel",
+        "dragon"
+      ]
+    },
+    "1019": {
+      "pokeid": 1019,
+      "name": "hydrapple",
+      "types": [
+        "grass",
+        "dragon"
+      ]
+    },
+    "1020": {
+      "pokeid": 1020,
+      "name": "gouging-fire",
+      "types": [
+        "fire",
+        "dragon"
+      ]
+    },
+    "1021": {
+      "pokeid": 1021,
+      "name": "raging-bolt",
+      "types": [
+        "electric",
+        "dragon"
+      ]
+    },
+    "1022": {
+      "pokeid": 1022,
+      "name": "iron-boulder",
+      "types": [
+        "rock",
+        "psychic"
+      ]
+    },
+    "1023": {
+      "pokeid": 1023,
+      "name": "iron-crown",
+      "types": [
+        "steel",
+        "psychic"
+      ]
+    },
+    "1024": {
+      "pokeid": 1024,
+      "name": "terapagos",
+      "types": [
+        "normal"
+      ]
+    },
+    "1025": {
+      "pokeid": 1025,
+      "name": "pecharunt",
+      "types": [
+        "poison",
+        "ghost"
+      ]
+    }
+  },
+  "regions": {
+    "kanto": {
+      "id": 1,
+      "name": "kanto",
+      "first": 1,
+      "last": 151
+    },
+    "johto": {
+      "id": 2,
+      "name": "johto",
+      "first": 152,
+      "last": 251
+    },
+    "hoenn": {
+      "id": 3,
+      "name": "hoenn",
+      "first": 252,
+      "last": 386
+    },
+    "sinnoh": {
+      "id": 4,
+      "name": "sinnoh",
+      "first": 387,
+      "last": 493
+    },
+    "unova": {
+      "id": 5,
+      "name": "unova",
+      "first": 494,
+      "last": 649
+    },
+    "kalos": {
+      "id": 6,
+      "name": "kalos",
+      "first": 650,
+      "last": 721
+    },
+    "alola": {
+      "id": 7,
+      "name": "alola",
+      "first": 722,
+      "last": 809
+    },
+    "galar": {
+      "id": 8,
+      "name": "galar",
+      "first": 810,
+      "last": 905
+    },
+    "paldea": {
+      "id": 9,
+      "name": "paldea",
+      "first": 906,
+      "last": 1025
+    }
+  }
+}
