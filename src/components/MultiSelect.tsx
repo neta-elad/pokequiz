@@ -87,7 +87,7 @@ export default function MultiSelect<T>({
           p-2 border border-gray-200"
           >
             {/* Actions */}
-            <div className="flex justify-between mb-1">
+            <div className="flex justify-between gap-2 mb-1">
               <Button onClick={selectAll}>All</Button>
               <Button onClick={clearAll}>Clear</Button>
             </div>

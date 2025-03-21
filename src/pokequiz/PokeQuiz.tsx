@@ -88,7 +88,7 @@ export default function PokeQuiz({ regions }: PokeQuizProps) {
           <div className="w-16 h-16 border-4 border-t-4 border-gray-300 border-t-white rounded-full animate-spin"></div>
         </div>
       )}
-      <div>
+      <div className="flex justify-center gap-2 mb-4">
         <Button onClick={prevPokemon}>Previous</Button>
         <Button onClick={randomPokemon}>Random</Button>
         <Button onClick={nextPokemon}>Next</Button>

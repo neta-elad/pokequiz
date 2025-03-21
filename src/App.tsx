@@ -6,7 +6,7 @@ import MultiSelect from "./components/MultiSelect";
 import PokeQuiz from "./pokequiz/PokeQuiz";
 import RandomRedirector from "./RandomRedirector";
 import { RegionList } from "./models/Region";
-import { REGIONS } from "./models/registry";
+import { getRegion, REGIONS } from "./models/registry";
 import "./App.css";
 
 const options = Object.entries(REGIONS).map(([name, region]) => {
@@ -17,11 +17,11 @@ const options = Object.entries(REGIONS).map(([name, region]) => {
 });
 
 export default function App() {
-  const [regions, setRegions] = useState(new RegionList());
+  const [regions, setRegions] = useState(new RegionList(getRegion()));
   return (
-    <div className="App relative">
+    <div className="App">
       <MultiSelect
-        className="absolute top-0 left-0"
+        className="absolute top-1 left-1"
         trigger={
           <button className="px-2 pt-0 pb-[5px] text-3xl bg-zinc-200 text-slate-900 leading-none">
             ⚙
