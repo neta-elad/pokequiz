@@ -8,11 +8,11 @@ export interface Region {
 
 export class RegionList extends Array<Region> {
   get firstId(): PokeId {
-    return this[0].first;
+    return this[0]?.first || 1;
   }
 
   get lastId(): PokeId {
-    return this[this.length - 1].last;
+    return this[this.length - 1]?.last || 1;
   }
 
   findRegion(id: PokeId): [number, Region] {
@@ -24,6 +24,10 @@ export class RegionList extends Array<Region> {
 
   prevId(id: PokeId): PokeId {
     const [i, region] = this.findRegion(id);
+    if (!region) {
+      return this.firstId;
+    }
+
     if (id > region.first) {
       return id - 1;
     }
@@ -35,6 +39,9 @@ export class RegionList extends Array<Region> {
 
   nextId(id: PokeId): PokeId {
     const [i, region] = this.findRegion(id);
+    if (!region) {
+      return this.lastId;
+    }
     if (id < region.last) {
       return id + 1;
     }

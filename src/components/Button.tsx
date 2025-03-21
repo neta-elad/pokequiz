@@ -8,7 +8,7 @@ interface Props {
 function Button({ onClick, children }: Props) {
   return (
     <button
-      className="w-24 p-0 bg-zinc-200 text-slate-900"
+      className="w-20 text-md p-0 bg-zinc-200 text-slate-900"
       onClick={onClick}
     >
       {children}

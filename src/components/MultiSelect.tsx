@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 
 import Button from "./Button";
+import useKeypress from "../effects/useKeypress";
 
 export interface Option<T> {
   value: T;
@@ -30,6 +31,12 @@ export default function MultiSelect<T>({
     }
     onChange(selectedOptions.map((key) => options[key].value));
   }, [options, selectedOptions]);
+
+  useKeypress(event => {
+    if (isOpen && event.key === 'Escape') {
+      setIsOpen(false);
+    }
+  }, [isOpen])
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
@@ -82,7 +89,7 @@ export default function MultiSelect<T>({
         {isOpen && (
           <div
             ref={menu}
-            className="absolute top-full start-1/4 mt-2
+            className="absolute bottom-full end-1/4 mb-2
           w-48 bg-zinc-100 dark:bg-zinc-700 shadow-lg rounded-lg 
           p-2 border border-gray-200"
           >

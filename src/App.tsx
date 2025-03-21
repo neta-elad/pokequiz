@@ -20,8 +20,15 @@ export default function App() {
   const [regions, setRegions] = useState(new RegionList(getRegion()));
   return (
     <div className="App">
+      <HashRouter>
+        <Routes>
+          <Route path="/:id" element={<PokeQuiz regions={regions} />} />
+          <Route path="/" element={<RandomRedirector regions={regions} />} />
+        </Routes>
+      </HashRouter>
+
       <MultiSelect
-        className="absolute top-1 left-1"
+        className="absolute bottom-2 right-1"
         trigger={
           <button className="px-2 pt-0 pb-[5px] text-3xl bg-zinc-200 text-slate-900 leading-none">
             ⚙
@@ -30,12 +37,6 @@ export default function App() {
         options={options}
         onChange={(values) => setRegions(new RegionList(...values))}
       />
-      <HashRouter>
-        <Routes>
-          <Route path="/:id" element={<PokeQuiz regions={regions} />} />
-          <Route path="/" element={<RandomRedirector regions={regions} />} />
-        </Routes>
-      </HashRouter>
     </div>
   );
 }

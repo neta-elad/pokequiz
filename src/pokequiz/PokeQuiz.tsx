@@ -78,7 +78,7 @@ export default function PokeQuiz({ regions }: PokeQuizProps) {
           return await onClick();
       }
     },
-    [id, hideName],
+    [id, hideName, regions],
   );
 
   return (
