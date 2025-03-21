@@ -32,11 +32,14 @@ export default function MultiSelect<T>({
     onChange(selectedOptions.map((key) => options[key].value));
   }, [options, selectedOptions]);
 
-  useKeypress(event => {
-    if (isOpen && event.key === 'Escape') {
-      setIsOpen(false);
-    }
-  }, [isOpen])
+  useKeypress(
+    (event) => {
+      if (isOpen && event.key === "Escape") {
+        setIsOpen(false);
+      }
+    },
+    [isOpen],
+  );
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
