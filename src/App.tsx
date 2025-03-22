@@ -1,7 +1,7 @@
-import { useState } from "react";
 import { HashRouter, Routes, Route } from "react-router";
 
 import MultiSelect from "./components/MultiSelect";
+import { useLocalStorage } from "./hooks/useLocalStorage";
 
 import PokeQuiz from "./pokequiz/PokeQuiz";
 import RandomRedirector from "./RandomRedirector";
@@ -11,13 +11,18 @@ import "./App.css";
 
 const options = Object.entries(REGIONS).map(([name, region]) => {
   return {
+    key: region.id,
     label: `${name} (Gen ${region.id})`,
     value: region,
   };
 });
 
 export default function App() {
-  const [regions, setRegions] = useState(new RegionList(getRegion()));
+  const [regions, setRegions] = useLocalStorage(
+    "regions",
+    new RegionList(getRegion()),
+    (stored) => new RegionList(...JSON.parse(stored)),
+  );
   return (
     <div className="App">
       <HashRouter>
@@ -35,6 +40,7 @@ export default function App() {
           </button>
         }
         options={options}
+        selected={regions.map((region) => region.id)}
         onChange={(values) => setRegions(new RegionList(...values))}
       />
     </div>

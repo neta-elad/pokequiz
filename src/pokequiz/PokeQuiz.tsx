@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { useParams, useNavigate, Navigate } from "react-router";
 
-import useKeypress from "../effects/useKeypress";
-import useSwipe from "../effects/useSwipe";
+import useKeypress from "../hooks/useKeypress";
+import useSwipe from "../hooks/useSwipe";
 import Pokemon from "./PokemonCard";
 import Button from "../components/Button";
 import { getPokeImageUrl } from "./PokeImage";

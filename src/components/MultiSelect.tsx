@@ -1,27 +1,38 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, Key } from "react";
 
 import Button from "./Button";
-import useKeypress from "../effects/useKeypress";
+import useKeypress from "../hooks/useKeypress";
 
-export interface Option<T> {
+export interface Option<T, K extends Key> {
+  key: K;
   value: T;
   label?: string;
 }
 
-interface Props<T> {
+interface Props<T, K extends Key> {
+  options: Array<Option<T, K>>;
   className?: string;
   trigger?: string | JSX.Element;
-  options: Array<Option<T>>;
   onChange?: (values: Array<T>) => void;
+  selected?: Array<K>;
 }
 
-export default function MultiSelect<T>({
-  className = "",
+export default function MultiSelect<T, K extends Key>({
   options,
+  className = "",
   trigger = "Select",
+  selected,
   onChange,
-}: Props<T>) {
-  const [selectedOptions, setSelectedOptions] = useState([0]); // Ensure at least one selected
+}: Props<T, K>) {
+  if (!selected) {
+    selected = [options[0].key];
+  }
+
+  const keyToValue = Object.fromEntries(
+    options.map((option) => [option.key, option.value]),
+  );
+
+  const [selectedOptions, setSelectedOptions] = useState(selected); // Ensure at least one selected
   const [isOpen, setIsOpen] = useState(false);
   const menu = useRef<HTMLDivElement>(null);
 
@@ -29,7 +40,7 @@ export default function MultiSelect<T>({
     if (!onChange) {
       return;
     }
-    onChange(selectedOptions.map((key) => options[key].value));
+    onChange(selectedOptions.map((key) => keyToValue[key]));
   }, [options, selectedOptions]);
 
   useKeypress(
@@ -60,20 +71,21 @@ export default function MultiSelect<T>({
     };
   }, [isOpen]);
 
-  const toggleOption = (id: number) => {
-    if (selectedOptions.includes(id)) {
+  const toggleOption = (key: K) => {
+    if (selectedOptions.includes(key)) {
       if (selectedOptions.length > 1) {
-        setSelectedOptions(selectedOptions.filter((item) => item !== id));
+        setSelectedOptions(selectedOptions.filter((item) => item !== key));
       }
     } else {
-      setSelectedOptions([...selectedOptions, id]);
+      setSelectedOptions([...selectedOptions, key]);
     }
   };
 
-  const selectAll = () => setSelectedOptions(options.map((_option, i) => i));
+  const selectAll = () =>
+    setSelectedOptions(options.map((option) => option.key));
 
   const clearAll = () => {
-    setSelectedOptions([0]); // Keep at least one selected
+    setSelectedOptions([options[0].key]); // Keep at least one selected
   };
 
   if (typeof trigger === "string") {
@@ -103,18 +115,18 @@ export default function MultiSelect<T>({
             </div>
             {/* Options List */}
             <div className="flex flex-col gap-2">
-              {options.map((option, i) => (
+              {options.map((option) => (
                 <label
-                  key={i}
+                  key={option.key}
                   className="flex items-center gap-2 select-none cursor-pointer capitalize"
                 >
                   <input
                     type="checkbox"
-                    checked={selectedOptions.includes(i)}
-                    onChange={() => toggleOption(i)}
+                    checked={selectedOptions.includes(option.key)}
+                    onChange={() => toggleOption(option.key)}
                     className="w-4 h-4"
                   />
-                  {option.label || String(option.value)}
+                  {option.label || String(option.key)}
                 </label>
               ))}
             </div>
