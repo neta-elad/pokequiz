@@ -1,7 +1,8 @@
-import { useEffect, useRef, useState, Key } from "react";
+import { useEffect, useState, Key, useMemo } from "react";
 
 import Button from "./Button";
 import useKeypress from "../hooks/useKeypress";
+import useClickOutside from "../hooks/useClickOutside";
 
 export interface Option<T, K extends Key> {
   key: K;
@@ -25,23 +26,29 @@ export default function MultiSelect<T, K extends Key>({
   onChange,
 }: Props<T, K>) {
   if (!selected) {
-    selected = [options[0].key];
+    selected = [options[0].key]; // Ensure at least one selected
   }
 
-  const keyToValue = Object.fromEntries(
-    options.map((option) => [option.key, option.value]),
-  );
-
-  const [selectedOptions, setSelectedOptions] = useState(selected); // Ensure at least one selected
+  const [selectedOptions, setSelectedOptions] = useState(selected);
   const [isOpen, setIsOpen] = useState(false);
-  const menu = useRef<HTMLDivElement>(null);
+  const keyToValue = useMemo(
+    () => new Map(options.map((option) => [option.key, option.value])),
+    [options],
+  );
 
   useEffect(() => {
     if (!onChange) {
       return;
     }
-    onChange(selectedOptions.map((key) => keyToValue[key]));
-  }, [options, selectedOptions]);
+    onChange(
+      selectedOptions.map((key) => keyToValue.get(key)).filter(notEmpty),
+    );
+  }, [selectedOptions, keyToValue]);
+
+  const menu = useClickOutside<HTMLDivElement>(
+    () => setIsOpen(false),
+    [isOpen],
+  );
 
   useKeypress(
     (event) => {
@@ -51,25 +58,6 @@ export default function MultiSelect<T, K extends Key>({
     },
     [isOpen],
   );
-
-  useEffect(() => {
-    function handleClickOutside(event: MouseEvent) {
-      if (
-        isOpen &&
-        menu.current &&
-        !menu.current.contains(event.target as Node)
-      ) {
-        setIsOpen(false);
-        event.stopPropagation();
-      }
-    }
-
-    document.body.addEventListener("click", handleClickOutside, true);
-
-    return () => {
-      document.body.removeEventListener("click", handleClickOutside, true);
-    };
-  }, [isOpen]);
 
   const toggleOption = (key: K) => {
     if (selectedOptions.includes(key)) {
@@ -135,4 +123,8 @@ export default function MultiSelect<T, K extends Key>({
       </div>
     </div>
   );
+}
+
+function notEmpty<TValue>(value: TValue | null | undefined): value is TValue {
+  return value !== null && value !== undefined;
 }

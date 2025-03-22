@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export function useLocalStorage<T>(
+export default function useLocalStorage<T>(
   key: string,
   initialState: T | (() => T),
   deserialize: (stored: string) => T = JSON.parse,

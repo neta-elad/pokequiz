@@ -1,7 +1,7 @@
 import { HashRouter, Routes, Route } from "react-router";
 
 import MultiSelect from "./components/MultiSelect";
-import { useLocalStorage } from "./hooks/useLocalStorage";
+import useLocalStorage from "./hooks/useLocalStorage";
 
 import PokeQuiz from "./pokequiz/PokeQuiz";
 import RandomRedirector from "./RandomRedirector";

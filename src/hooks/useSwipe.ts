@@ -1,6 +1,6 @@
 import { DependencyList, useEffect } from "react";
 
-function useSwipe(
+export default function useSwipe(
   onSwipeRight: () => Promise<void> | void,
   onSwipeLeft: () => Promise<void> | void,
   deps?: DependencyList,
@@ -38,5 +38,3 @@ function useSwipe(
     };
   }, deps);
 }
-
-export default useSwipe;
